@@ -1,0 +1,313 @@
+/*
+ * grid_jobs.h
+ *
+ *  Created on: Jul 8, 2010
+ *      Author: leond
+ *
+ *      This header holds all of the functions and details of the block structure. In the future, it might be a good idea to break this up into
+ *      smaller chunks and distribute those chunks to different headers, as the central theme of this header kind of went out the window.
+ *
+ */
+#include <iostream>
+#include <complex>
+#include <complex.h>
+#include <math.h>
+#include <fstream>
+using std::ifstream;
+using std::cerr;
+using std::cout;
+using std::endl;
+#include <cstdlib> // for exit function
+
+//This function acts the same way as the bphs function in the old code.
+//The main difference is I combined the bphs function with the earg function as they were only used together.
+complex <double> bphs(int a1, int a2, double bfield, double coord[3600][3]){
+
+	double a1x,a1y,a1z,a2x,a2y,a2z;
+	double phi1,phi2,ri1,ri2,earg=0;
+	complex <double> result;
+	double cearg,searg;
+
+	double ap;
+		///
+		// Get all the x,y, and z from the atoms 1 and 2
+//				FILE* file = fopen("/Users/leond/Documents/Code/Research/positions", "r"); // opens the file
+//				ifstream inFile;
+//				size_t BUFSIZE = 1000;
+//				char buf[BUFSIZE];
+//				int linenum=0;
+//				for(linenum=0;linenum<a1*4-4;linenum++) fscanf(file, "%s", buf); //   string<<C
+//				if(EOF!=fscanf(file, "%lf %lf %lf %lf ",&a1x,&a1y,&a1z,&ap))
+//				{
+//				}
+//				rewind(file);
+//
+//				for(linenum=0;linenum<a2*4-4;linenum++) fscanf(file, "%s", buf);
+//				if(EOF!=fscanf(file, "%lf %lf %lf %lf ",&a2x,&a2y,&a2z,&ap))
+//				{
+//				}
+//				fclose(file);
+		///
+    a1x = coord[a1-1][0];
+    a1y = coord[a1-1][1];
+    a1z = coord[a1-1][2];
+
+    a2x = coord[a2-1][0];
+    a2y = coord[a2-1][1];
+    a2z = coord[a2-1][2];
+
+	double rhoij;
+	rhoij=(a1x+a2x)*(a1x+a2x)+(a1y+a2y)*(a1y+a2y);
+	rhoij=.5e0*sqrt(rhoij);
+	if(rhoij < 0.00001){earg=0.0e0;}else{
+		   phi1=-(a1y+a2y)/rhoij/2.0e0;
+		   phi2= (a1x+a2x)/rhoij/2.0e0;
+		   ri1= a1x-a2x;
+		   ri2= a1y-a2y;
+		   earg= phi1*ri1+phi2*ri2;
+	}
+	earg=.5e0*bfield*rhoij*earg;
+	earg=(1.52e-05)*earg;
+	searg= sin(earg);
+	cearg=cos(earg);
+	result = std::complex<double>(cearg,searg);
+//	cout <<"Test-" << result <<" "<< searg<<" " <<cearg<<" "<<earg <<endl;
+	return result;
+}
+
+
+//This is the fundamental component of my code. A block holds a 12 by 12 data array of complex <double> types0.
+//This data array can be set using the set_data function or the set_values function. The differences between these will be explained below.
+//A block also has a unique id and, more importantly, an int (mi) that should represent which column of the overall hmod it is a part of.
+//Finally, a block has a "type" which describes the layout of the block. For instance, blocks that compose the main diagonal are named "D" and
+//have special ways of initialization. This will allow for more special types of blocks in the future. Make sure, however, that if a special block
+//is created, that the initialization routine is also initialized in set_values.
+class block {
+    int mi, id;
+    complex<double> data[12][12];
+    char type;
+  public:
+    void set_values (int,int,double,double,char,double[3600][3]);
+    void set_data (int,int,complex <double>);
+    complex<double> getData(int i,int j){return data[i][j];}
+    char getType(){return type;}
+    int area () {return (mi*id);}
+    void print_block ();
+};
+
+//This is a simple function. Takes the value C and places at a,b in data. Note that a and b must be less than 12.
+void block::set_data (int a, int b, complex <double> c) {
+	data[a][b]=c;
+}
+
+//Prints the 12 by 12 data block to the screen.
+void block::print_block () {
+	for (int i=0;i<12;i++){
+ 	cout << data[i][0] << data[i][1] << data[i][2] << data[i][3] << data[i][4] << data[i][5] << data[i][6] << data[i][7] << data[i][8] << data[i][9] << data[i][10] << data[i][11] << endl;
+	}
+}
+
+//Sets not only the data, but also the id, and mi. Furthermore, it sets the data to the values determined by its type.
+//For instance, if the type = "D" then set_values sets the data along the main diagonal, the two sub-diagonals, and the two corner elements.
+void block::set_values (int a, int b, double c, double bf, char d, double coord[3600][3]) {
+  mi = a;
+  type = d;
+  bool check;
+	double vhop=-3.1e0;
+	double vhopt=-3.1e0;
+//	vhopt=0e0;
+  id = mi+b*300;
+  complex <double> diaener;
+  diaener = std::complex <double>(c,5e-9);
+
+
+//Reset all data in block to zero, overriding any previous data.
+  for (int j =0;j<12;j++){
+	  for (int i=0;i<12;i++){
+		  data[i][j]=0.0;
+		  }
+	  }
+//Setting the diagonal
+  if (type=='D'){
+		  for (int i=0;i<12;i++){
+				  data[i][i] = diaener;
+		  }
+		  for (int i=1;i<12;i++){
+				  data[i-1][i] = bphs(12*mi+i-1+1,12*mi+i+1,bf,coord)* (-vhop);
+				  data[i][i-1] = bphs(12*mi+i+1,12*mi+i-1+1,bf,coord)* (-vhop);
+//				  data[i-1][i] = bphs(12*mi+i-1,12*mi+i,bf)* -vhop;
+			  }
+//		  data[0][11]=bphs(mi*12+0+1,mi*12+11+1,bf);
+//		  data[11][0]=bphs(mi*12+11+1,mi*12+0+1,bf);
+		  data[0][11]=3.1;
+		  data[11][0]=3.1;
+	  }
+
+  //Setting the t-dagger blocks.
+    if (type=='W'){
+  	  check = true;
+  	  for (int j =1;j<12;j=j+2){
+  		  if (check == true){
+  		  data[j-1][j]=bphs(mi*12+j+12,mi*12+j+1,bf,coord)* (-vhop); //1,5,9
+  		  check = !check;
+  		  } else if (check == false){
+  			  data[j][j-1]=bphs(mi*12+j+13,mi*12+j,bf,coord)* (-vhop); //3,7,11
+  			  check = !check;
+  		  }
+
+  		  }
+
+//  	  	  if (mi==299){
+//  	  		  for (int j =0;j<12;j++){
+//  	  			  for (int i=0;i<12;i++){
+//  	  				  data[i][j]=0.0;
+//  	  				  }
+//  	  			  }
+//  	  		  data[0][1]= (bphs(3589,3578,bf))* (-vhop);
+//  	  		data[3][2]= (bphs(3592,3579,bf))* (-vhop);
+//  	  		data[4][5]= (bphs(3592,3581,bf))* (-vhop);
+//  	  		data[7][6]= (bphs(3595,3582,bf))* (-vhop);
+//  	  		data[8][9]= (bphs(3596,3585,bf))* (-vhop);
+//  	  		data[11][10]= (bphs(3599,3586,bf))* (-vhop);
+//
+//  	  	  }
+
+//  	  	  	  if (mi==290){
+//  	  	  		  for (int j =0;j<12;j++){
+//  	  	  			  for (int i=0;i<12;i++){
+//  	  	  				  data[i][j]=0.0;
+//  	  	  				  }
+//  	  	  			  }
+//  	  	  		  data[0][1]= (bphs(3589,3578,bf))* (-vhop);
+//  	  	  		data[3][2]= (bphs(3592,3579,bf))* (-vhop);
+//  	  	  		data[4][5]= (bphs(3593,3582,bf))* (-vhop);
+//  	  	  		data[7][6]= (bphs(3596,3583,bf))* (-vhop);
+//  	  	  		data[8][9]= (bphs(3597,3586,bf))* (-vhop);
+//  	  	  		data[11][10]= (bphs(3600,3587,bf))* (-vhop);
+//
+//  	  	  	  }
+
+  	  }
+
+  //Setting the T blocks
+    if (type=='T'){
+  	  check = true;
+  	  for (int j =1;j<12;j=j+2){
+  		  if (check == true){
+  		  data[j][j-1]=conj(bphs(mi*12+j+12,mi*12+j+1,bf,coord))* (-vhop); //3,7,11
+  		  check = !check;
+  		  } else if (check == false){
+  			  data[j-1][j]=conj(bphs(mi*12+j+13,mi*12+j,bf,coord))* (-vhop); //1,5,9
+  			  check = !check;
+  		  }
+
+  		  }
+
+
+//  	  if (mi==298){
+//  		  for (int j =0;j<12;j++){
+//  			  for (int i=0;i<12;i++){
+//  				  data[i][j]=0.0;
+//  				  }
+//  			  }
+//
+//  		data[1][0]= conj(bphs(3589,3578,bf))* (-vhop);
+//  		data[2][3]= conj(bphs(3592,3579,bf))* (-vhop);
+//  		data[5][4]= conj(bphs(3593,3582,bf))* (-vhop);
+//  		data[6][7]= conj(bphs(3596,3583,bf))* (-vhop);
+//  		data[9][8]= conj(bphs(3597,3586,bf))* (-vhop);
+//  		data[10][11]= conj(bphs(3600,3587,bf))* (-vhop);
+//
+//  	  }
+
+    }
+
+
+
+
+     //Setting the U blocks
+    if (type=='U'){
+    	  data[0][1]    =bphs(1,3590,bf,coord)* (-vhop);
+    	  data[3][2]	=bphs(4,3591,bf,coord)* (-vhop);
+    	  data[4][5]	=bphs(5,3594,bf,coord)* (-vhop);
+    	  data[7][6]	=bphs(8,3595,bf,coord)* (-vhop);
+    	  data[8][9]	=bphs(9,3598,bf,coord)* (-vhop);
+    	  data[11][10]	=bphs(12,3599,bf,coord)* (-vhop);
+    	  }
+
+    	      //Setting the u dagger blocks.
+    if (type=='Q'){
+  	      data[1][0]    =bphs(3590,1,bf,coord)* (-vhop);
+  	      data[2][3]	=bphs(3591,4,bf,coord)* (-vhop);
+  	      data[5][4]	=bphs(3594,5,bf,coord)* (-vhop);
+  	      data[6][7]	=bphs(3595,8,bf,coord)* (-vhop);
+  	      data[9][8]	=bphs(3598,9,bf,coord)* (-vhop);
+  	      data[10][11]	=bphs(3599,12,bf,coord)* (-vhop);
+      }
+
+}
+// Since the T,t-dagger,U, and U-dagger blocks are set once in the beginning, and then are never needed to be updated, this
+// only sets up those blocks and ignores the diagonal blocks.
+void init_grid0 (block stm[300][3], double ener, double bf, double coord[3600][3]){
+	  double vhop=-3.1e0;
+	  for (int i=0;i<299;i++){
+			  stm[i+1][0].set_values(i,0,ener,bf,'T',coord);
+	  }
+
+
+//			  stm[298][2].set_data(0,1,(bphs(3589,3578,bf))* (-vhop));
+//			  stm[298][2].set_data(3,2,(bphs(3592,3579,bf))* (-vhop));
+//			  stm[298][2].set_data(4,5,(bphs(3593,3582,bf))* (-vhop));
+//			  stm[298][2].set_data(7,6,(bphs(3596,3583,bf))* (-vhop));
+//			  stm[298][2].set_data(8,9,(bphs(3597,3586,bf))* (-vhop));
+//			  stm[298][2].set_data(11,10,(bphs(3600,3587,bf))* (-vhop));
+
+
+
+	  for (int i=1;i<300;i++){
+		      stm[i][2].set_values(i,2,ener,bf,'W',coord);
+	     	  }
+
+	 stm[0][0].set_values(0,0,ener,bf,'U',coord);
+	 stm[299][2].set_values(299,2,ener,bf,'Q',coord);
+}
+
+//The opposite of init_grid0. Sets up only the diagonal blocks
+void init_grid (block stm[300][3], double ener, double bf, double coord[3600][3]){
+	  for (int i=0;i<300;i++){
+			  stm[i][1].set_values(i,100,ener,bf,'D',coord);
+	  }
+}
+
+//Returns the value of the block that an atom belongs to. For instance, in a 3600 atom model, atom 1359 will belong to block 133.
+int get_atom_col_block(int atom){
+	int temp = floor(atom / 12);
+	return (temp);
+}
+
+int get_atom_connect_block(int atom1, int atom2){
+	int temp  = floor(atom1 / 12);
+	int temp2 = floor(atom2 / 12);
+	int result;
+//
+	if (temp == temp2){
+		result = 1;  // Then they are in the main diagonal
+	} else if (temp == temp2 + 1 && temp2!=299){
+		result = 0;  // They are in T/T-Dagger
+	} else if (temp2 == temp + 1 && temp !=299){
+		result = 2;  // They are in T/T-Dagger
+	} else if (temp2 == 0 && temp == 299 ){
+		result = 3; // They are in U/U-Dagger
+	} else if (temp2 == 299 && temp == 0 ){
+		result = 4; // They are in U/U-Dagger
+	} else {result = 999999;}
+
+	return (result);
+}
+////One the block number is known, this returns where in that block the atom is located. For instance, 1359 will be in the third position of block 133
+//  int get_atom_col_place(int atom){
+//	int temp = atom%12;
+//	return (temp);
+//}
+
+

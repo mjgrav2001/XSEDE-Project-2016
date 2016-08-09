@@ -1,0 +1,30 @@
+
+Start time: Wed Mar  7 15:43:49 2012
+Total Processors: 16
+Groups: 4
+Group Size: 4
+Energy range: -0.20000 eV to -0.19900 eV
+BField = 0.000000
+
+ Energy		DensityofStates	 ScaledTransmissionFunction	 Re(fermif)	Time
+
+-0.20000 	1.53329e-03	 (7.33152e-10, -1.18329e-29)	-6.05529e-10	50
+-0.19995 	1.52806e-03	 (7.28354e-10, 4.73317e-30)	-6.02562e-10	117
+-0.19990 	1.52287e-03	 (7.23593e-10, -5.91646e-30)	-5.99615e-10	50
+-0.19985 	1.51771e-03	 (7.18869e-10, -3.94430e-31)	-5.96687e-10	45
+=>> PBS: job killed: walltime 7211 exceeded limit 7200
+mpirun: killing job...
+
+--------------------------------------------------------------------------
+mpirun was unable to cleanly terminate the daemons on the nodes shown
+below. Additional manual cleanup may be required - please refer to
+the "orte-clean" tool for assistance.
+--------------------------------------------------------------------------
+	scs-1-29
+	scs-1-28
+	scs-1-27
+	scs-1-26
+	scs-1-17
+	scs-1-15
+	scs-1-14
+	scs-1-1

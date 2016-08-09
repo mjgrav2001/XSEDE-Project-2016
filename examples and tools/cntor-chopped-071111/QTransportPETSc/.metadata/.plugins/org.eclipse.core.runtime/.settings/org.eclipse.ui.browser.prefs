@@ -1,0 +1,4 @@
+#Mon Jul 11 22:23:26 EDT 2011
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="1">\n<system/>\n<external location\="/Applications/Firefox.app/Contents/MacOS/firefox-bin" name\="Firefox"/>\n</web-browsers>
+browser-choice=0
+eclipse.preferences.version=1

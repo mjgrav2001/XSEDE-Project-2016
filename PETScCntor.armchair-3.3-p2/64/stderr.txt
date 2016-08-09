@@ -1,0 +1,1001 @@
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff5a239828) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff5a239540, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff34a2d2b8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff34a2cfd0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff3724bff8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff3724bd10, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Reduce(764)..................: 
+MPIR_Reduce_binomial(172).........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffbaa0d238) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffbaa0cf50, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Reduce(764)..................: 
+MPIR_Reduce_binomial(172).........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff8268d0c8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff8268cde0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Reduce(764)..................: 
+MPIR_Reduce_binomial(172).........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffed8334a8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffed8331c0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nemFatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff4f2f0b48) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff4f2f0860, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff286922b8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff28691fd0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff10080928) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff10080640, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Allreduce(467)...............: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffce4a95c8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffce4a92e0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Allreduce(289)...............: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff700b67c8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff700b64e0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Reduce(764)..................: 
+MPIR_Reduce_binomial(172).........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff5fb2b7a8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff5fb2b4c0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Reduce(764)..................: 
+MPIR_Reduce_binomial(172).........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff7ec5b6a8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff7ec5b3c0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Reduce(764)..................: 
+MPIR_Reduce_binomial(172).........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff6d590c58) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff6d590970, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Reduce(764)..................: 
+MPIR_Reduce_binomial(172).........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Terminated
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff6efc4868) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff6efc4580, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Allreduce(467)...............: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff35da70a8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff35da6dc0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff0ed47978) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff0ed47690, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Allreduce(289)...............: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Probe: Other MPI error, error stack:
+MPI_Probe(114)....................: MPI_Probe(src=MPI_ANY_SOURCE, tag=MPI_ANY_TAG, comm=0xc4000002, status=0x7fff66fc7f70) failed
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff5f9ae8e8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff5f9ae600, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffb2eabbd8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0xFatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffa50dbce8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffa50dba00, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff4fe689c8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff4fe686e0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+7fffb2eab8f0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff6d8be0f8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff6d8bde10, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Allreduce(289)...............: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff88a7d198) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff88a7ceb0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Allreduce(467)...............: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff19cae3b8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff19cae0d0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7ffff4130c48) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7ffff4130960, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handFatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffef6fa628) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffef6fa340, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+ler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffe57753c8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffe57750e0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Allreduce(289)...............: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffd54844b8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffd54841d0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Allreduce(289)...............: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff4ae04fd8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff4ae04cf0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff05a05f88) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff05a05ca0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff87147b88) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff871478a0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff7b4cdb38) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff7b4cd850, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Reduce(764)..................: 
+MPIR_Reduce_binomial(172).........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff5d400428) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff5d400140, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff8ee2cba8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff8ee2c8c0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffde73c118) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffde73be30, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff4d2f9fd8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff4d2f9cf0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff84d76018) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff84d75d30, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff7e445fa8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff7e445cc0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7ffff631a268) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7ffff6319f80, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff298b6658) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff298b6370, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff1426a288) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff14269fa0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff37cfa478) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff37cfa190, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff4ab51318) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff4ab51030, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffb83ae518) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffb83ae230, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff2a8ebcd8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff2a8eb9f0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffd4a6e1b8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffd4a6ded0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff23e01078) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff23e00d90, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Allreduce(467)...............: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff780c6668) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff780c6380, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Allreduce(289)...............: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffc1a47308) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffc1a47020, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Allreduce(289)...............: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff875a96e8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff875a9400, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7ffff74e2798) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7ffff74e24b0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff1e3f8fd8) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff1e3f8cf0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff1ba31e98) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff1ba31bb0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffd9fccc88) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffd9fcc9a0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff17e27c68) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff17e27980, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff48eb9358) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff48eb9070, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffad8b3428) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffad8b3140, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Probe: Other MPI error, error stack:
+MPI_Probe(114)....................: MPI_Probe(src=MPI_ANY_SOURCE, tag=MPI_ANY_TAG, comm=0xc4000000, status=0x7fff95386c50) failed
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffad2bf988) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffad2bf6a0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fff02fc7c28) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fff02fc7940, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Comm_dup: Other MPI error, error stack:
+MPI_Comm_dup(168).................: MPI_Comm_dup(MPI_COMM_WORLD, new_comm=0x7fffb16bcb98) failed
+MPIR_Comm_copy(923)...............: 
+MPIR_Get_contextid(639)...........: 
+MPI_Allreduce(773)................: MPI_Allreduce(sbuf=MPI_IN_PLACE, rbuf=0x7fffb16bc8b0, count=64, MPI_INT, MPI_BAND, MPI_COMM_WORLD) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Terminated

@@ -1,0 +1,886 @@
+[0]PETSC ERROR: --------------------- Error Message ------------------------------------
+[0]PETSC ERROR: Error in system call!
+[0]PETSC ERROR: fclose() failed on file!
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[0]PETSC ERROR: See docs/changes/index.html for recent updates.
+[0]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[0]PETSC ERROR: See docs/index.html for manual pages.
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: ./cntor on a cntor-opt named n0200 by mjack Tue Apr 10 23:40:44 2012
+[0]PETSC ERROR: Libraries linked from /nethome/mjack/petsc-3.1-p8/cntor-opt/lib
+[0]PETSC ERROR: Configure run at Fri Apr  6 18:51:12 2012
+[0]PETSC ERROR: Configure options PETSC_ARCH=cntor-opt --with-debugging=0 --with-fortran-kernels=1 --with-shared=0 --with-clanguage=cxx --with-scalar-type=complex --download-f-blas-lapack --download-mumps --download-blacs --download-scalapack --download-parmetis
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: PetscFClose() line 102 in src/sys/fileio/mpiuopen.c
+[0]PETSC ERROR: CalculateTransport() line 316 in WDcntor.cpp
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CHFatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CHFatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nemFatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MP_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPII_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(31R_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize fai8).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nemled
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_co_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPImmrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+R_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nemFatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nemFatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CHFatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nemFatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Barrier(82)..................: 
+MPIC_Sendrecv(164)................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nemFatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPIR_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(318).................: MPI_Finalize failed
+MPI_Finalize(211).................: 
+MPID_Finalize(92).................: 
+PMPI_Barrier(476).................: MPI_Barrier(comm=0x44000002) failed
+MPI3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed
+R_Bcast(1031)..................: 
+MPIR_Bcast_binomial(157)..........: 
+MPIC_Recv(83).....................: 
+MPIC_Wait(513)....................: 
+MPIDI_CH3I_Progress(150)..........: 
+MPID_nem_mpich2_blocking_recv(948): 
+MPID_nem_tcp_connpoll(1720).......: 
+state_commrdy_handler(1556).......: 
+MPID_nem_tcp_recv_handler(1446)...: socket closed

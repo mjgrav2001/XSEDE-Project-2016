@@ -1,0 +1,100 @@
+CFLAGS 		=
+FFLAGS 		=
+CPPFLAGS	= -Wall -O3 -openmp -I$(MKLROOT)/include -I$(PETSC_DIR)/$(PETSC_ARCH)/include/boost -I$(PETSC_DIR)/$(PETSC_ARCH)/include/boost/program_options -I$(PETSC_DIR)/$(PETSC_ARCH)/externalpackages/boost_minimal_1_42_0/boost
+FPPFLAGS        =
+LDFLAGS         = 
+LOCDIR          = $PWD
+EXAMPLESC       = cntor.cpp test.cpp ex1.c
+EXAMPLESF       =
+MANSEC          = Mat
+
+
+# PETSc / MUMPS OpenMPI installation:
+#PETSC_CUSTOM = -Wl,-rpath,/ccs/home/n8d/petsc-3.5.0/complex-cpp-mumps-titan/lib -L/ccs/home/n8d/petsc-3.5.0/complex-cpp-mumps-titan/lib -lpetsc -Wl,-rpath,/autofs/na3_home1/n8d/petsc-3.5.0/complex-cpp-mumps-titan/lib -L/autofs/na3_home1/n8d/petsc-3.5.0/complex-cpp-mumps-titan/lib -lcmumps -ldmumps -lsmumps -lzmumps -lmumps_common -lpord -lscalapack -lsuperlu_4.3 -Wl,-rpath,/opt/intel/composer_xe_2013.5.192/mkl/lib/intel64 -L/opt/intel/composer_xe_2013.5.192/mkl/lib/intel64 -lmkl_intel_lp64 -lmkl_core -lmkl_intel_thread -liomp5 -ldl -lpthread -lm -lparmetis -lmetis -lX11 -lssl -lcrypto -lpthread -Wl,-rpath,/opt/cray/pmi/default/lib64 -L/opt/cray/pmi/default/lib64 -Wl,-rpath,/usr/lib/alps -L/usr/lib/alps -Wl,-rpath,/opt/cray/ugni/default/lib64 -L/opt/cray/ugni/default/lib64 -Wl,-rpath,/opt/cray/xpmem/default/lib64 -L/opt/cray/xpmem/default/lib64 -Wl,-rpath,/opt/sw/xk6/ompi/1.7.1/sles11.1_intel12.1.3.293/lib -L/opt/sw/xk6/ompi/1.7.1/sles11.1_intel12.1.3.293/lib -Wl,-rpath,/opt/intel/composer_xe_2013.5.192/compiler/lib/intel64 -L/opt/intel/composer_xe_2013.5.192/compiler/lib/intel64 -Wl,-rpath,/usr/lib64/gcc/x86_64-suse-linux/4.3 -L/usr/lib64/gcc/x86_64-suse-linux/4.3 -Wl,-rpath,/usr/x86_64-suse-linux/lib -L/usr/x86_64-suse-linux/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lifport -lifcoremt -lm -lmpi_cxx -ldl -lmpi -limf -lsvml -lirng -lipgo -ldecimal -liomp5 -lcilkrts -lstdc++ -lgcc_s -lirc -lpthread -lirc_s -ldl
+
+# PETSc / MUMPS installation with Cray MPICH installation:
+#PETSC_CUSTOM=
+
+# Optimized PETSc installation with Cray MPICH: 
+#PETSC_CUSTOM=
+
+# Default PETSc on Titan with Cray MPICH:
+#PETSC_CUSTOM=
+
+
+MKL_CUSTOM = $(MKLROOT)/lib/intel64/libmkl_scalapack_lp64.a -Wl,--start-group $(MKLROOT)/lib/intel64/libmkl_intel_lp64.a $(MKLROOT)/lib/intel64/libmkl_core.a $(MKLROOT)/lib/intel64/libmkl_intel_thread.a -Wl,--end-group $(MKLROOT)/lib/intel64/libmkl_blacs_intelmpi_lp64.a -lpthread -lm
+
+BOOST = -L$(PETSC_DIR)/$(PETSC_ARCH)/include/boost/program_options
+
+NATIVE = -target=native
+
+#Compile w/o MKL dense support
+#CPPFLAGS += -DNOMKL
+
+#Compile w/o boost libraries (must edit source for options)
+CPPFLAGS += -DNOBOOST
+
+
+include ${PETSC_DIR}/conf/variables
+include ${PETSC_DIR}/conf/rules
+include ${PETSC_DIR}/conf/test
+
+all: cntor
+
+#Normal, native compilation on login/service nodes
+cntor-native: src/cntor.o chkopts 
+	-${CLINKER} ${NATIVE} -openmp -o cntor src/cntor.o ${PETSC_MAT_LIB} ${BOOST}
+	${RM} src/cntor.o
+
+
+#Normal, should tolerate most PETSc/MPI combinations
+cntor: src/cntor.o chkopts
+	-${CLINKER} -openmp -o cntor src/cntor.o ${PETSC_MAT_LIB} ${BOOST}
+	${RM} src/cntor.o
+
+
+#Link to multithread MPI, needed for OpenMP hybrid
+cntor-mt: src/cntor.o chkopts
+	-${CLINKER} -mt_mpi -o cntor-mt src/cntor.o ${PETSC_CUSTOM} ${BOOST} 
+	${RM} src/cntor.o
+
+
+#Compilation with default PETSc 
+cntor-petsc: src/cntor.o chkopts
+	-${CLINKER} -openmp -o cntor-petsc src/cntor.o ${PETSC_MAT_LIB} ${BOOST} 
+	${RM} src/cntor.o
+
+
+#Compilation for Intel MIC (Xeon Phi)
+cntor-mic: src/cntor-mic.o chkopts
+	-${CLINKER} -mmic -o cntor-mic src/cntor-mic.o ${PETSC_MAT_LIB} 
+	${RM} src/cntor-mic.o
+
+
+test: test.o  chkopts
+	-${CLINKER}  -o test test.o ${PETSC_MAT_LIB}
+	${RM} test.o
+
+ex1: ex1.o  chkopts
+	-${CLINKER}  -o ex1 ex1.o ${PETSC_MAT_LIB}
+	${RM} ex1.o
+
+runcntor: cntor
+	-@${MPIEXEC}  -n 8 ./cntor -pc_type lu -pc_factor_mat_solver_package mumps
+
+rundebug: cntor
+	-@${MPIEXEC}  -n 8 ./cntor -pc_type lu -pc_factor_mat_solver_package mumps -start_in_debugger
+
+runarmchair: cntor
+	-@${MPIEXEC}  -n 8 ./cntor -pc_type lu -pc_factor_mat_solver_package mumps -mat_mumps_icntl_14 100
+
+runtest: 
+	-@${MPIEXEC}  ./test 
+
+runex1: 
+	-@${MPIEXEC}  ./ex1 
+
+env-lib:
+	@echo ${PETSC_MAT_LIB}
+#	@echo ${BOOST}
+

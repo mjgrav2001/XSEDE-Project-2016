@@ -1,0 +1,4 @@
+/var/spool/torque/mom_priv/jobs/2009265.SC: line 34: cd: /lustre/atlas/scratch/n8d/mat101/ORNL-VFP-Project/cntor-petsc3.5/armchair-1010-12000/: No such file or directory
+Couldn't parse executable
+aprun: file ./cntor-petsc not found
+aprun: Exiting due to errors. Application aborted

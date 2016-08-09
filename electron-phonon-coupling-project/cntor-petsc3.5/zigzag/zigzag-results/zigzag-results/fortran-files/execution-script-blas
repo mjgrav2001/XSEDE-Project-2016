@@ -1,0 +1,6 @@
+./a1.out > fortran-blas-5-0-3600.log;
+./a2.out > fortran-blas-6-0-3600.log;
+./a3.out > fortran-blas-10-0-3600.log;
+./a4.out > fortran-blas-10-0-6000.log;
+./a5.out > fortran-blas-10-0-9000.log;
+./a6.out > fortran-blas-10-0-12000.log

@@ -1,0 +1,60 @@
+ 
+bash-$ mpiexec -n 2 ./cntor
+ Bfield 0
+ rows 4000 idim 40 ndiag 100 numEnergySteps 8000
+
+Start time: Tue Dec 20 18:03:24 2011
+Processors in use: 2
+Processors used for each PETSc matrix inversion: 1
+ Bfield 0
+ rows 4000 idim 40 ndiag 100 numEnergySteps 8000
+Processors used for each PETSc matrix inversion: 1
+Groups of processors actually doing PETSc matrix inversions: 2
+Energy range: -0.20000 eV to 0.20000 eV
+BField = 0.000000 
+ 
+ Energy          DensityofStates         ScaledTransmissionFunction      Re(fermif)      Time
+
+Groups of processors actually doing PETSc matrix inversions: 2
+[1]PETSC ERROR: [0]PETSC ERROR: --------------------- Error Message ------------------------------------
+[0]PETSC ERROR: No support for this operation for this object type!
+[0]PETSC ERROR: Matrix format mpiaij does not have a built-in PETSc direct solver!
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[0]PETSC ERROR: See docs/changes/index.html for recent updates.
+[0]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[0]PETSC ERROR: See docs/index.html for manual pages.
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: ./cntor on a complex-c named mark-jacks-macbook-pro.local by markjack Tue Dec 20 18:03:24 2011
+[0]PETSC ERROR: Libraries linked from /Users/markjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[0]PETSC ERROR: Configure run at Mon Jul 18 11:52:16 2011
+[0]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-clanguage=cxx --with-scalar-type=complex --with-mpi-dir=/Users/markjack/mpich2-1.2.1 --download-f-blas-lapack=1 --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: MatGetFactor() line 3644 in src/mat/interface/matrix.c
+[0]PETSC ERROR: PCSetUp_LU() line 133 in src/ksp/pc/impls/factor/lu/lu.c
+[0]PETSC ERROR: PCSetUp() line 795 in src/ksp/pc/interface/precon.c
+[0]PETSC ERROR: KSPSetUp() line 237 in src/ksp/ksp/interface/itfunc.c
+[0]PETSC ERROR: InvertHamiltonian() line 165 in WDinvert.h
+[0]PETSC ERROR: RetrieveInformation() line 232 in WDcntor.cpp
+--------------------- Error Message ------------------------------------
+[1]PETSC ERROR: No support for this operation for this object type!
+[1]PETSC ERROR: Matrix format mpiaij does not have a built-in PETSc direct solver!
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[1]PETSC ERROR: See docs/changes/index.html for recent updates.
+[1]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[1]PETSC ERROR: See docs/index.html for manual pages.
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: ./cntor on a complex-c named mark-jacks-macbook-pro.local by markjack Tue Dec 20 18:03:24 2011
+[1]PETSC ERROR: Libraries linked from /Users/markjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[1]PETSC ERROR: Configure run at Mon Jul 18 11:52:16 2011
+[1]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-clanguage=cxx --with-scalar-type=complex --with-mpi-dir=/Users/markjack/mpich2-1.2.1 --download-f-blas-lapack=1 --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: MatGetFactor() line 3644 in src/mat/interface/matrix.c
+[1]PETSC ERROR: PCSetUp_LU() line 133 in src/ksp/pc/impls/factor/lu/lu.c
+[1]PETSC ERROR: PCSetUp() line 795 in src/ksp/pc/interface/precon.c
+[1]PETSC ERROR: KSPSetUp() line 237 in src/ksp/ksp/interface/itfunc.c
+[1]PETSC ERROR: InvertHamiltonian() line 165 in WDinvert.h
+[1]PETSC ERROR: RetrieveInformation() line 232 in WDcntor.cpp
+rank 0 in job 2  mark-jacks-macbook-pro.local_52654   caused collective abort of all ranks
+  exit status of rank 0: return code 56 

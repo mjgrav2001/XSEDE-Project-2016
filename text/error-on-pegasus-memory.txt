@@ -1,0 +1,110 @@
+[4]PETSC ERROR: --------------------- Error Message ------------------------------------
+[4]PETSC ERROR: Out of memory. This could be due to allocating
+[4]PETSC ERROR: too large an object or bleeding by not properly
+[4]PETSC ERROR: destroying unneeded objects.
+[1]PETSC ERROR: --------------------- Error Message ------------------------------------
+[1]PETSC ERROR: Out of memory. This could be due to allocating
+[1]PETSC ERROR: too large an object or bleeding by not properly
+[1]PETSC ERROR: destroying unneeded objects.
+[1]PETSC ERROR: Memory allocated 1474590880 Memory used by process 1620357120
+[1]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[1]PETSC ERROR: Memory requested 1474560500!
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[1]PETSC ERROR: See docs/changes/index.html for recent updates.
+[1]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[1]PETSC ERROR: See docs/index.html for manual pages.
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: ./cntor on a complex-c named scs-4-15 by mjack Sun Nov 20 16:51:55 2011
+[1]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[1]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[1]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguag
+e=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[1]PETSC ERROR: PetscTrMallocDefault() line 192 in src/sys/memory/mtr.c
+[1]PETSC ERROR: MatSeqDenseSetPreallocation_SeqDense() line 1982 in src/mat/impls/dense/seq/dense.c
+[1]PETSC ERROR: MatSeqDenseSetPreallocation() line 1963 in src/mat/impls/dense/seq/dense.c
+[1]PETSC ERROR: MatDuplicateNoCreate_SeqDense() line 110 in src/mat/impls/dense/seq/dense.c
+[4]PETSC ERROR: --------------------- Error Message ------------------------------------
+[4]PETSC ERROR: Out of memory. This could be due to allocating
+[4]PETSC ERROR: too large an object or bleeding by not properly
+[4]PETSC ERROR: destroying unneeded objects.
+[1]PETSC ERROR: --------------------- Error Message ------------------------------------
+[1]PETSC ERROR: Out of memory. This could be due to allocating
+[1]PETSC ERROR: too large an object or bleeding by not properly
+[1]PETSC ERROR: destroying unneeded objects.
+[1]PETSC ERROR: Memory allocated 1474590880 Memory used by process 1620357120
+[1]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[1]PETSC ERROR: Memory requested 1474560500!
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[1]PETSC ERROR: See docs/changes/index.html for recent updates.
+[1]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[1]PETSC ERROR: See docs/index.html for manual pages.
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: ./cntor on a complex-c named scs-4-15 by mjack Sun Nov 20 16:51:55 2011
+[1]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[1]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[1]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguag
+e=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[1]PETSC ERROR: PetscTrMallocDefault() line 192 in src/sys/memory/mtr.c
+[1]PETSC ERROR: MatSeqDenseSetPreallocation_SeqDense() line 1982 in src/mat/impls/dense/seq/dense.c
+[1]PETSC ERROR: MatSeqDenseSetPreallocation() line 1963 in src/mat/impls/dense/seq/dense.c
+[1]PETSC ERROR: MatDuplicateNoCreate_SeqDense() line 110 in src/mat/impls/dense/seq/dense.c
+[2]PETSC ERROR: likely location of problem given in stack below
+[2]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[0]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[0]PETSC ERROR:       INSTEAD the line number of the start of the function
+[0]PETSC ERROR:       is given.
+[0]PETSC ERROR: [0] MatSeqDenseSetPreallocation line 1960 src/mat/impls/dense/seq/dense.c
+[0]PETSC ERROR: [0] MatDuplicateNoCreate_SeqDense line 109 src/mat/impls/dense/seq/dense.c
+[0]PETSC ERROR: [0] MatDuplicate_SeqDense line 132 src/mat/impls/dense/seq/dense.c
+[0]PETSC ERROR: [0] MatDuplicate line 3733 src/mat/interface/matrix.c
+[0]PETSC ERROR: --------------------- Error Message ------------------------------------
+[2]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[2]PETSC ERROR:       INSTEAD the line number of the start of the function
+[2]PETSC ERROR:       is given.
+[2]PETSC ERROR: [2] MatSetValues line 968 src/mat/interface/matrix.c
+[2]PETSC ERROR: --------------------- Error Message ------------------------------------
+[2]PETSC ERROR: Signal received!
+[2]PETSC ERROR: ------------------------------------------------------------------------
+[2]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[2]PETSC ERROR: See docs/changes/index.html for recent updates.
+[2]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[2]PETSC ERROR: See docs/index.html for manual pages.
+[2]PETSC ERROR: ------------------------------------------------------------------------
+[2]PETSC ERROR: ./cntor on a complex-c named scs-4-15 by mjack Sun Nov 20 16:51:55 2011
+[2]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[2]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[2]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguag
+e=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[2]PETSC ERROR: ------------------------------------------------------------------------
+[2]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[0]PETSC ERROR: Signal received!
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[0]PETSC ERROR: See docs/changes/index.html for recent updates.
+[0]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[0]PETSC ERROR: See docs/index.html for manual pages.
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: ./cntor on a complex-c named scs-4-15 by mjack Sun Nov 20 16:51:55 2011
+[0]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[0]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[0]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguag
+e=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD 
+with errorcode 59.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[scs-4-15:18166] 1 more process has sent help message help-mpi-api.txt / mpi-abort
+[scs-4-15:18166] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[mjack@sc PETScCntor.zigzag]$ 

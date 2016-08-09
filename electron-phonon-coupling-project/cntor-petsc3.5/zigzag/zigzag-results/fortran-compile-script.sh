@@ -1,0 +1,1 @@
+gfortran cntor-current-b0-0d32-blas-10-0-3600.f -o a.out -I$(MKLROOT)/include -L$(MKLROOT)/lib/intel64/libmkl_scalapack_lp64.a -L$(MKLROOT)/lib/intel64/libmkl_intel_lp64.a -L$(MKLROOT)/lib/intel64/libmkl_core.a

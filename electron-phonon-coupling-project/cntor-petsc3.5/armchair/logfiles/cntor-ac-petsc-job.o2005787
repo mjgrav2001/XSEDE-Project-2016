@@ -1,0 +1,7 @@
+-----------------------------------------------------------------------------
+APRUN usage: OMP_NUM_THREADS (64) > thread depth (-d 1) which will lead to oversubscribed cores.
+-n 64 -N 1 -d 1 ./cntor-petsc -pc_type lu arg1
+See www.olcf.ornl.gov/support/system-user-guides/titan-user-guide/#2941 for more details about selecting aprun flags. 
+Set the environment variable APRUN_USAGE_QUIET to supress these messages.
+-----------------------------------------------------------------------------
+apsched: claim exceeds reservation's node-count

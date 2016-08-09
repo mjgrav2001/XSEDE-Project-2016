@@ -1,0 +1,38 @@
+#PBS -S /bin/bash
+#PBS -V
+###PBS -q cnms14q
+#PBS -N cntor-armchair-job
+#PBS -j oe
+#PBS -M mark.a.jack@gmail.com
+#PBS -l walltime=8:00:00
+#PBS -l nodes=16:ppn=16
+#PBS -A MAT101
+#
+NCORES=16
+export OMP_NUM_THREADS=1
+export MKL_MIC_ENABLE=0
+#export MIC_OMP_NUM_TRHREADS=96
+#
+#module unload mvapich2/1.9a2
+#module unload pgi
+#module unload PrgEnv-pgi
+#
+#module load PrgEnv-intel
+#module load intel
+#module load ompi/1.7.1
+#
+PETSC_DIR=/ccs/home/n8d/petsc-3.4.4
+export PETSC_DIR
+PETSC_ARCH=complex-ccp-mkl-titan
+#PETSC_ARCH=complex-cpp-optimized-titan
+export PETSC_ARCH
+###module load petsc-complex/3.4.2-debug
+###module load petsc-complex/3.4.2
+#
+###cd $PBS_SCRATCH
+###cd /ccs/home/n8d/ORNL-VFP-2014/PETScCntor.armchair.061214
+cd $PBS_O_WORKDIR
+#
+mpirun -v -np ${NCORES} ./cntor -pc_type lu -pc_factor_mat_solver_package mumps -mat_mumps_icntl_14 1000 arg1 2>&1 | tee /ccs/home/n8d/cntor-armchair-n16-$PBS_JOBID.log
+#mpirun -v -np ${NCORES} ./cntor-mt arg1 2>&1 | tee /ccs/home/n8d/cntor-mt-armchair-n16-$PBS_JOBID.log
+#mpirun -v -np ${NCORES} ./cntor arg1 2>&1 | tee /ccs/home/n8d/cntor-petsc-armchair-n16-$PBS_JOBID.log

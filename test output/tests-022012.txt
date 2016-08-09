@@ -1,0 +1,130 @@
+
+Single core test runs:
+
+Separation of inverse Hamiltonian into sub matrices in subroutine 'RetrieveInformation':
+
+ Bfield 0
+ rows 4000 idim 40 ndiag 100 numEnergySteps 6
+
+Start time: Sun Feb 19 14:22:09 2012
+Processors in use: 1
+Groups of processors actually doing PETSc matrix inversions: 1
+Number of processors for each PETSc matrix inversion: 1
+Energy range: -0.20000 eV to -0.19975 eV
+BField = 0.000000
+
+ Energy          DensityofStates         ScaledTransmissionFunction      Re(fermif)      Time
+
+-0.20000        1.53329e-03      (7.33152e-10, -9.07190e-30)    -6.05529e-10    22
+-0.19995        1.52806e-03      (7.28354e-10, -1.41995e-29)    -6.02562e-10    22
+-0.19990        1.52287e-03      (7.23593e-10, -2.36658e-29)    -5.99615e-10    24
+-0.19985        1.51771e-03      (7.18869e-10, -3.39210e-29)    -5.96687e-10    21
+-0.19980        1.51259e-03      (7.14182e-10, 1.02552e-29)     -5.93779e-10    21
+-0.19975        1.50750e-03      (7.09531e-10, 6.70532e-30)     -5.90889e-10    21
+
+
+No separation of inverse Hamiltonian into sub matrices in subroutine 'RetrieveInformation':
+
+ Bfield 0
+ rows 4000 idim 40 ndiag 100 numEnergySteps 6
+
+Start time: Sun Feb 19 14:26:31 2012
+Processors in use: 1
+Groups of processors actually doing PETSc matrix inversions: 1
+Number of processors for each PETSc matrix inversion: 1
+Energy range: -0.20000 eV to -0.19975 eV
+BField = 0.000000
+
+ Energy          DensityofStates         ScaledTransmissionFunction      Re(fermif)      Time
+
+-0.20000        1.53329e-03      (7.33152e-10, -9.07190e-30)    -6.05529e-10    21
+-0.19995        1.52806e-03      (7.28354e-10, -1.41995e-29)    -6.02562e-10    21
+-0.19990        1.52287e-03      (7.23593e-10, -2.36658e-29)    -5.99615e-10    21
+-0.19985        1.51771e-03      (7.18869e-10, -3.39210e-29)    -5.96687e-10    22
+-0.19980        1.51259e-03      (7.14182e-10, 1.02552e-29)     -5.93779e-10    21
+-0.19975        1.50750e-03      (7.09531e-10, 6.70532e-30)     -5.90889e-10    20
+
+
+Multi-core runs:
+
+ Bfield 0
+ rows 4000 idim 40 ndiag 100 numEnergySteps 6
+
+Start time: Mon Feb 20 18:42:09 2012
+Processors in use: 2
+Groups of processors actually doing PETSc matrix inversions: 1
+Number of processors for each PETSc matrix inversion: 2
+Energy range: -0.20000 eV to -0.19975 eV
+BField = 0.000000
+
+ Energy          DensityofStates         ScaledTransmissionFunction      Re(fermif)      Time
+
+-0.20000        1.53329e-03      (7.33152e-10, -1.97215e-30)    -6.05529e-10    108
+-0.19995        1.52806e-03      (7.28354e-10, -1.18329e-29)    -6.02562e-10    134
+-0.19990        1.52287e-03      (7.23593e-10, 0.00000e+00)     -5.99615e-10    112
+-0.19985        1.51771e-03      (7.18869e-10, 2.68213e-29)     -5.96687e-10    103
+-0.19980        1.51259e-03      (7.14182e-10, 7.88861e-30)     -5.93779e-10    104
+-0.19975        1.50750e-03      (7.09531e-10, -4.53595e-29)    -5.90889e-10    104
+
+
+ Bfield 0
+ rows 4000 idim 40 ndiag 100 numEnergySteps 6
+
+Start time: Mon Feb 20 18:55:42 2012
+Processors in use: 2
+Groups of processors actually doing PETSc matrix inversions: 2
+Number of processors for each PETSc matrix inversion: 1
+Energy range: -0.20000 eV to -0.19975 eV
+BField = 0.000000
+
+ Energy          DensityofStates         ScaledTransmissionFunction      Re(fermif)      Time
+
+-0.20000        1.53069e-03      (7.30940e-10, -1.06496e-29)    -6.03702e-10    104
+-0.19995        1.53069e-03      (7.30938e-10, -1.45939e-29)    -6.04700e-10    104
+-0.19990        1.52030e-03      (7.21418e-10, -2.76101e-30)    -5.97813e-10    105
+-0.19985        1.52030e-03      (7.21416e-10, 1.65661e-29)     -5.98801e-10    105
+-0.19980        1.51005e-03      (7.12044e-10, -5.52203e-30)    -5.92002e-10    110
+-0.19975        1.51005e-03      (7.12042e-10, 9.46633e-30)     -5.92980e-10    110
+
+
+ Bfield 0
+ rows 4000 idim 40 ndiag 100 numEnergySteps 6
+
+Start time: Mon Feb 20 20:07:44 2012
+Processors in use: 6
+Groups of processors actually doing PETSc matrix inversions: 6
+Number of processors for each PETSc matrix inversion: 1
+Energy range: -0.20000 eV to -0.19975 eV
+BField = 0.000000
+
+ Energy          DensityofStates         ScaledTransmissionFunction      Re(fermif)      Time
+
+-0.20000        1.51941e-03      (7.20560e-10, -2.40603e-29)    -5.95129e-10    112
+-0.19995        1.51941e-03      (7.20558e-10, 7.09975e-30)     -5.96113e-10    112
+-0.19990        1.51941e-03      (7.20555e-10, -1.18329e-30)    -5.97098e-10    112
+-0.19985        1.51941e-03      (7.20553e-10, 2.76101e-30)     -5.98085e-10    112
+-0.19980        1.51941e-03      (7.20551e-10, 2.64268e-29)     -5.99074e-10    112
+-0.19975        1.51941e-03      (7.20548e-10, -1.22273e-29)    -6.00064e-10    112
+
+
+ Bfield 0
+ rows 4000 idim 40 ndiag 100 numEnergySteps 6
+
+Start time: Mon Feb 20 20:34:47 2012
+Processors in use: 3
+Groups of processors actually doing PETSc matrix inversions: 3
+Number of processors for each PETSc matrix inversion: 1
+Energy range: -0.20000 eV to -0.19975 eV
+BField = 0.000000
+
+ Energy          DensityofStates         ScaledTransmissionFunction      Re(fermif)      Time
+
+-0.20000        1.52632e-03      (7.26758e-10, 1.49884e-29)     -6.00248e-10    114
+-0.19995        1.52632e-03      (7.26756e-10, 1.30162e-29)     -6.01240e-10    114
+-0.19990        1.52632e-03      (7.26753e-10, 9.86076e-30)     -6.02234e-10    114
+-0.19985        1.51431e-03      (7.15959e-10, 3.15544e-30)     -5.94272e-10    116
+-0.19980        1.51431e-03      (7.15957e-10, 1.22273e-29)     -5.95255e-10    116
+-0.19975        1.51431e-03      (7.15955e-10, -1.18329e-29)    -5.96239e-10    116
+
+
+

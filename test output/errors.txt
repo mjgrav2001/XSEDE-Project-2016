@@ -1,0 +1,13 @@
+
+Fatal error in MPI_Comm_free: Invalid communicator, error stack:
+MPI_Comm_free(135): MPI_Comm_free(comm=0x101412da4) failed
+MPI_Comm_free(106): Cannot free permanent communicator MPI_COMM_WORLD
+
+Fatal error in MPI_Comm_free: Invalid communicator, error stack:
+MPI_Comm_free(135): MPI_Comm_free(comm=0x101412da4) failed
+MPI_Comm_free(106): Cannot free permanent communicator MPI_COMM_WORLD
+
+Total run time: 11 minutes 6 seconds
+rank 1 in job 10  mark-jacks-macbook-pro.local_56354   caused collective abort of all ranks
+  exit status of rank 1: return code 1 
+make: [runcntor] Error 1 (ignored)

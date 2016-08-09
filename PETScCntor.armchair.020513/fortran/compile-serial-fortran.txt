@@ -1,0 +1,3 @@
+Command line:
+
+gfortran cntor-current-chopped-61910-zgbsv.f -framework vecLib

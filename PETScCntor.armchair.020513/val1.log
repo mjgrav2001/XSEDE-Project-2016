@@ -1,0 +1,12 @@
+
+Start time: Mon May 12 17:31:13 2014
+Total Processors: 2
+Groups: 1
+Group Size: 2
+Energy range: -0.20000 eV to -0.19995 eV
+BField = 0.000000
+
+ Energy		DensityofStates	 ScaledTransmissionFunction	 Re(fermif)	Time
+
+-0.20000 	1.58827e-03	 (4.99458e-09, -2.52435e-29)	-4.12515e-09	54
+-0.19995 	1.58308e-03	 (4.97742e-09, 6.31089e-30)	-4.11778e-09	62

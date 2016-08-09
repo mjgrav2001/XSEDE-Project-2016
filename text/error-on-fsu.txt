@@ -1,0 +1,29 @@
+Start time: Thu Nov 17 21:02:31 2011
+Processors in use: 16
+[8]PETSC ERROR: --------------------- Error Message ------------------------------------
+[8]PETSC ERROR: Out of memory. This could be due to allocating
+[8]PETSC ERROR: too large an object or bleeding by not properly
+[8]PETSC ERROR: destroying unneeded objects.
+[8]PETSC ERROR: Memory allocated 1474590880 Memory used by process 1616490496
+[8]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[8]PETSC ERROR: Memory requested 1474560500!
+[8]PETSC ERROR: ------------------------------------------------------------------------
+[8]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[8]PETSC ERROR: See docs/changes/index.html for recent updates.
+[8]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[8]PETSC ERROR: See docs/index.html for manual pages.
+[8]PETSC ERROR: ------------------------------------------------------------------------
+[8]PETSC ERROR: ./cntor on a complex-c named hpc-10-30 by mjack Thu Nov 17 21:02:32 2011
+[8]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[8]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[8]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguag
+e=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[8]PETSC ERROR: ------------------------------------------------------------------------
+[8]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[8]PETSC ERROR: PetscTrMallocDefault() line 192 in src/sys/memory/mtr.c
+[8]PETSC ERROR: MatSeqDenseSetPreallocation_SeqDense() line 1982 in src/mat/impls/dense/seq/dense.c
+[8]PETSC ERROR: MatSeqDenseSetPreallocation() line 1963 in src/mat/impls/dense/seq/dense.c
+[8]PETSC ERROR: MatDuplicateNoCreate_SeqDense() line 110 in src/mat/impls/dense/seq/dense.c
+[8]PETSC ERROR: MatDuplicate_SeqDense() line 136 in src/mat/impls/dense/seq/dense.c
+[8]PETSC ERROR: MatDuplicate() line 3746 in src/mat/interface/matrix.c
+[8]PETSC ERROR: RetrieveInformation() line 137 in WDcntor.cpp

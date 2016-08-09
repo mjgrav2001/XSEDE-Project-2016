@@ -1,0 +1,135 @@
+!SESSION 2011-07-11 17:46:10.765 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_28
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-11 17:47:10.021
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-07-11 17:48:08.217
+!MESSAGE Indexed 'QTransportPETSc' (0 sources, 13 headers) in 0.37 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2011-07-11 17:54:16.087 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_28
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -data /Users/markjack/Desktop/NSF TeraGrid Pathways Fellowship 2010/codes/c-codes/cntor-chopped-071111 -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-11 17:54:21.587
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2011-07-11 17:55:12.991 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_28
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-11 17:55:19.721
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2011-07-11 17:56:39.223 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_28
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-11 17:56:47.498
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2011-07-11 18:01:08.754 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_28
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-11 18:01:19.610
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-07-11 18:03:34.965
+!MESSAGE Indexed 'QTransportPETSc' (1 sources, 19 headers) in 1.24 sec: 276 declarations; 1,004 references; 34 unresolved inclusions; 0 syntax errors; 154 unresolved names (10.74%)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2011-07-11 18:04:55.712
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/Users/markjack/Desktop/NSF TeraGrid Pathways Fellowship 2010/codes/c-codes/cntor-chopped-071111/QTransportPETSc/src/a.out": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:290)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:66)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:377)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:95)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:69)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2011-07-11 18:04:55.712
+!MESSAGE Exec_tty error:Cannot run program "/Users/markjack/Desktop/NSF TeraGrid Pathways Fellowship 2010/codes/c-codes/cntor-chopped-071111/QTransportPETSc/src/a.out": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/Users/markjack/Desktop/NSF TeraGrid Pathways Fellowship 2010/codes/c-codes/cntor-chopped-071111/QTransportPETSc/src/a.out": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:290)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:66)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:377)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:95)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:69)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2011-07-11 18:07:07.048
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/markjack/Desktop/NSF TeraGrid Pathways Fellowship 2010/codes/c-codes/cntor-chopped-071111/QTransportPETSc/src/a.out not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:83)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:69)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2011-07-11 18:07:07.048
+!MESSAGE /Users/markjack/Desktop/NSF TeraGrid Pathways Fellowship 2010/codes/c-codes/cntor-chopped-071111/QTransportPETSc/src/a.out not found
+!STACK 0
+java.io.FileNotFoundException: /Users/markjack/Desktop/NSF TeraGrid Pathways Fellowship 2010/codes/c-codes/cntor-chopped-071111/QTransportPETSc/src/a.out not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:83)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:69)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2011-07-11 18:08:42.181 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_28
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-11 18:09:02.712
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-07-11 18:10:56.491
+!MESSAGE Indexed 'QTransportPETSc' (0 sources, 13 headers) in 0.19 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2011-07-19 15:53:33.212 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_26
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -data /Users/markjack/Desktop/NSF TeraGrid Pathways Fellowship 2010/codes/c-codes/cntor-chopped-071111 -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-19 15:53:36.928
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

@@ -1,0 +1,44 @@
+echo "Reading ~/.bash_profile"
+
+/sw/bin/init.sh
+
+source ~/.bashrc
+
+F77=g95; export F77
+FC=g95; export FC
+F90=g95; export F90
+
+GLOBUS_LOCATION=$HOME/globus
+MYPROXY_SERVER=myproxy.teragrid.org
+MYPROXY_SERVER_PORT=7514
+export GLOBUS_LOCATION MYPROXY_SERVER MYPROXY_SERVER_PORT
+. $GLOBUS_LOCATION/etc/globus-user-env.sh
+
+export CC=gcc-4.2
+export CXX=g++-4.2
+
+export LC_ALL=C
+
+export CFLAGS=-O3
+export LDFLAGS=-static
+
+export INCLUDEFFTW=/usr/local/include/fftw
+
+export LIBDIRS=/usr/local/lib
+
+G95_LIBRARY_PATH=/Users/leond/g95-install/lib
+LIBRARY_PATH=/Users/leond/g95-install/lib
+LIBS=/sw/lib/gcc4.2
+
+GLOBUS_LOCATION=$HOME/globus
+MYPROXY_SERVER=myproxy.teragrid.org
+MYPOXY_SERVER_PORT=7514
+export GLOBUS_LOCATION MYPROXY_SERVER MYPROXY_SERVER_PORT
+. $GLOBUS_LOCATION/etc/globus-user-env.sh
+
+KRB5_CONFIG="/etc/krb5.conf"
+export KRB5_CONFIG
+
+
+test -r /sw/bin/init.sh && ./sw/bin/init.sh
+

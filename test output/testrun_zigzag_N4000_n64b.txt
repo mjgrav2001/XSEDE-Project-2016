@@ -1,0 +1,162 @@
+
+Start time: Fri Mar  9 17:49:25 2012
+Total Processors: 64
+Groups: 16
+Group Size: 4
+Energy range: -0.20000 eV to -0.19900 eV
+BField = 0.000000
+
+ Energy		DensityofStates	 ScaledTransmissionFunction	 Re(fermif)	Time
+
+-0.20000 	3.46840e-04	 (3.40961e-10, -3.15544e-30)	-2.81608e-10	37
+-0.19995 	3.46979e-04	 (3.41359e-10, -1.57772e-30)	-2.82404e-10	32
+-0.19990 	3.47118e-04	 (3.41758e-10, 7.88861e-31)	-2.83202e-10	32
+-0.19985 	3.47258e-04	 (3.42159e-10, -2.36658e-30)	-2.84004e-10	29
+-0.19980 	3.47398e-04	 (3.42560e-10, 7.88861e-31)	-2.84808e-10	30
+-0.19975 	3.47539e-04	 (3.42963e-10, 5.52203e-30)	-2.85615e-10	32
+-0.19970 	3.47681e-04	 (3.43367e-10, -1.65661e-29)	-2.86425e-10	25
+-0.19965 	3.47824e-04	 (3.43771e-10, -6.31089e-30)	-2.87238e-10	24
+-0.19960 	3.47967e-04	 (3.44177e-10, -8.67747e-30)	-2.88054e-10	25
+-0.19955 	3.48111e-04	 (3.44585e-10, -4.73317e-30)	-2.88872e-10	28
+-0.19950 	3.48256e-04	 (3.44993e-10, -3.15544e-30)	-2.89693e-10	25
+-0.19945 	3.48401e-04	 (3.45402e-10, -2.20881e-29)	-2.90517e-10	25
+-0.19940 	3.48547e-04	 (3.45813e-10, 4.73317e-30)	-2.91345e-10	25
+-0.19935 	3.48694e-04	 (3.46225e-10, -1.57772e-30)	-2.92175e-10	36
+-0.19930 	3.48841e-04	 (3.46637e-10, -1.65661e-29)	-2.93007e-10	35
+-0.19925 	3.48990e-04	 (3.47052e-10, 2.20881e-29)	-2.93843e-10	42
+=>> PBS: job killed: walltime 7220 exceeded limit 7200
+mpirun: killing job...
+
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 22701 on node hpc-4-24 exited on signal 0 (Unknown signal 0).
+--------------------------------------------------------------------------
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[5]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[5]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[5]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[5]PETSC ERROR: likely location of problem given in stack below
+[5]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[62]PETSC ERROR: [1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[1]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[1]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[1]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[1]PETSC ERROR: likely location of problem given in stack below
+[1]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+------------------------------------------------------------------------
+[62]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[62]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[62]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[62]PETSC ERROR: [3]PETSC ERROR: ------------------------------------------------------------------------
+[3]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[3]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[3]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[3]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[3]PETSC ERROR: likely location of problem given in stack below
+[3]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[7]PETSC ERROR: ------------------------------------------------------------------------
+[7]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[7]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[7]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[7]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[7]PETSC ERROR: likely location of problem given in stack below
+[7]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[34]PETSC ERROR: ------------------------------------------------------------------------
+[34]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[34]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[34]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[34]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[34]PETSC ERROR: likely location of problem given in stack below
+[34]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[35]PETSC ERROR: ------------------------------------------------------------------------
+[35]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[35]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[35]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[35]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[35]PETSC ERROR: likely location of problem given in stack below
+[35]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[58]PETSC ERROR: ------------------------------------------------------------------------
+[58]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[58]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[58]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[58]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[58]PETSC ERROR: likely location of problem given in stack below
+[58]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[32]PETSC ERROR: ------------------------------------------------------------------------
+[32]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[32]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[32]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[32]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[32]PETSC ERROR: likely location of problem given in stack below
+[32]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[21]PETSC ERROR: ------------------------------------------------------------------------
+[21]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[21]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[21]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[21]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[21]PETSC ERROR: likely location of problem given in stack below
+[21]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[30]PETSC ERROR: [41]PETSC ERROR: ------------------------------------------------------------------------
+[41]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[41]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[41]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[41]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[41]PETSC ERROR: likely location of problem given in stack below
+[41]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[22]PETSC ERROR: ------------------------------------------------------------------------
+[22]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[22]PETSC ERROR: [36]PETSC ERROR: ------------------------------------------------------------------------
+[36]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[36]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[36]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[36]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[36]PETSC ERROR: likely location of problem given in stack below
+[36]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+------------------------------------------------------------------------
+[30]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[30]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[2]PETSC ERROR: ------------------------------------------------------------------------
+[2]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[2]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[2]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[2]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[2]PETSC ERROR: likely location of problem given in stack below
+[2]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+Try option -start_in_debugger or -on_error_attach_debugger
+[22]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[22]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[22]PETSC ERROR: likely location of problem given in stack below
+[22]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[62]PETSC ERROR: likely location of problem given in stack below
+[62]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[5]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[5]PETSC ERROR:       INSTEAD the line number of the start of the function
+[5]PETSC ERROR:       is given.
+[5]PETSC ERROR: [5] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[5]PETSC ERROR: [5] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[30]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[30]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[30]PETSC ERROR: likely location of problem given in stack below
+[30]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[61]PETSC ERROR: ------------------------------------------------------------------------
+[61]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[61]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[61]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[61]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[61]PETSC ERROR: likely location of problem given in stack below
+[61]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[31]PETSC ERROR: ------------------------------------------------------------------------
+[31]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[31]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[31]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[31]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[31]PETSC ERROR: likely location of problem given in stack below
+[31]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[5]PETSC ERROR: --------------------- Error Message ------------------------------------
+[5]PETSC ERROR: Signal received!
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[5]PETSC ERROR: See docs/changes/index.html for recent updates.
+[5]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[5]PETSC ERROR: See docs/index.html for manual pages.
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: ./cntor on a complex-c named hpc-9-20 by mjack Fri Mar  9 17:49:37 2012
+[5]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[5]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[5]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[60]PETSC ERROR: ------------------------------------------------------------------------
+[60]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[60]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[60]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[60]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[60]PETSC ERROR: likely location of problem given in stack below
+[60]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+mpirun: clean termination accomplished
+
+64 total processes killed (some possibly by mpirun during cleanup)

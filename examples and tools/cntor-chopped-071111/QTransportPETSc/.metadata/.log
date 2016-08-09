@@ -1,0 +1,340 @@
+!SESSION 2011-07-11 18:17:59.534 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_28
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -data /Users/markjack/Desktop/NSF TeraGrid Pathways Fellowship 2010/codes/c-codes/cntor-chopped-071111/QTransportPETSc -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-11 18:18:05.204
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-07-11 18:18:55.605
+!MESSAGE Indexed 'QTransportPETSc' (0 sources, 13 headers) in 0.52 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.core.resources 2 2 2011-07-11 21:22:20.251
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2011-07-11 21:22:20.251
+!MESSAGE The project description file (.project) for 'QTransportPETSc' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2011-07-11 21:31:50.178 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_28
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-11 21:32:09.672
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2011-07-11 21:50:04.471 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_28
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-11 21:50:27.369
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 4 2 2011-07-11 21:58:46.706
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.launch.ui.CLaunchConfigurationTab.initializeCProject(CLaunchConfigurationTab.java:147)
+	at org.eclipse.cdt.launch.ui.CMainTab.setDefaults(CMainTab.java:858)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupWrapper.setDefaults(LaunchConfigurationTabGroupWrapper.java:244)
+	at org.eclipse.debug.internal.ui.launchConfigurations.CreateLaunchConfigurationAction.performAction(CreateLaunchConfigurationAction.java:77)
+	at org.eclipse.debug.internal.ui.launchConfigurations.AbstractLaunchConfigurationAction$1.run(AbstractLaunchConfigurationAction.java:103)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.internal.ui.launchConfigurations.AbstractLaunchConfigurationAction.run(AbstractLaunchConfigurationAction.java:106)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog$1.run(LaunchConfigurationsDialog.java:515)
+	at org.eclipse.debug.ui.AbstractDebugView.doubleClick(AbstractDebugView.java:729)
+	at org.eclipse.jface.viewers.StructuredViewer$1.run(StructuredViewer.java:821)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireDoubleClick(StructuredViewer.java:819)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleDoubleSelect(AbstractTreeViewer.java:1419)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetDefaultSelected(StructuredViewer.java:1195)
+	at org.eclipse.jface.util.OpenStrategy.fireDefaultSelectionEvent(OpenStrategy.java:238)
+	at org.eclipse.jface.util.OpenStrategy.access$0(OpenStrategy.java:235)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:296)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3441)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3100)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1065)
+	at org.eclipse.debug.ui.DebugUITools$1.run(DebugUITools.java:398)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:406)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:340)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:81)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.runWithEvent(OpenLaunchDialogAction.java:89)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3441)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3100)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.ui 4 0 2011-07-11 22:00:46.436
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.launch.ui.CLaunchConfigurationTab.initializeCProject(CLaunchConfigurationTab.java:147)
+	at org.eclipse.cdt.launch.ui.CMainTab.setDefaults(CMainTab.java:858)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupWrapper.setDefaults(LaunchConfigurationTabGroupWrapper.java:244)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPropertiesDialog.initializeContent(LaunchConfigurationPropertiesDialog.java:120)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.createContents(LaunchConfigurationsDialog.java:425)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1089)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.create(LaunchConfigurationsDialog.java:354)
+	at org.eclipse.jface.window.Window.open(Window.java:790)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1065)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPropertiesDialog.open(LaunchConfigurationPropertiesDialog.java:227)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.openLaunchConfigurationPropertiesDialog(DebugUIPlugin.java:671)
+	at org.eclipse.debug.internal.ui.preferences.RunDebugPropertiesPage.edit(RunDebugPropertiesPage.java:457)
+	at org.eclipse.debug.internal.ui.preferences.RunDebugPropertiesPage.handleNew(RunDebugPropertiesPage.java:512)
+	at org.eclipse.debug.internal.ui.preferences.RunDebugPropertiesPage.access$0(RunDebugPropertiesPage.java:467)
+	at org.eclipse.debug.internal.ui.preferences.RunDebugPropertiesPage$1.widgetSelected(RunDebugPropertiesPage.java:127)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3441)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3100)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.run(PropertyDialogAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:119)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.handlers.SlaveHandlerService.executeCommand(SlaveHandlerService.java:241)
+	at org.eclipse.ui.menus.CommandContributionItem.handleWidgetSelection(CommandContributionItem.java:770)
+	at org.eclipse.ui.menus.CommandContributionItem.access$10(CommandContributionItem.java:756)
+	at org.eclipse.ui.menus.CommandContributionItem$5.handleEvent(CommandContributionItem.java:746)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3441)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3100)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-07-11 22:50:46.442
+!MESSAGE Indexed 'QTPETSc' (1 sources, 17 headers) in 0.96 sec: 251 declarations; 928 references; 24 unresolved inclusions; 0 syntax errors; 127 unresolved names (9.72%)
+
+!ENTRY org.eclipse.cdt.make.core 4 0 2011-07-12 09:55:45.547
+!MESSAGE Cannot find builtin/gnu.mk
+!STACK 0
+java.io.IOException: Cannot find builtin/gnu.mk
+	at org.eclipse.core.internal.runtime.FindSupport.openStream(FindSupport.java:274)
+	at org.eclipse.core.runtime.FileLocator.openStream(FileLocator.java:188)
+	at org.eclipse.cdt.make.internal.core.makefile.gnu.GNUMakefile.getBuiltins(GNUMakefile.java:834)
+	at org.eclipse.cdt.make.internal.core.makefile.AbstractMakefile.getBuiltinMacroDefinitions(AbstractMakefile.java:139)
+	at org.eclipse.cdt.make.internal.core.makefile.AbstractMakefile.getBuiltinMacroDefinitions(AbstractMakefile.java:150)
+	at org.eclipse.cdt.make.internal.ui.text.makefile.MakefileTextHover.getHoverInfo(MakefileTextHover.java:64)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.ui 4 0 2011-07-12 10:08:53.096
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.doInitialTreeSelection(LaunchConfigurationsDialog.java:584)
+	at org.eclipse.debug.ui.DebugUITools$1.run(DebugUITools.java:386)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:406)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:340)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.run(AbstractLaunchToolbarAction.java:85)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3543)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1250)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3441)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3100)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-07-12 10:55:18.808
+!MESSAGE Indexed 'QTransPETSCc' (1 sources, 17 headers) in 0.37 sec: 251 declarations; 928 references; 24 unresolved inclusions; 0 syntax errors; 127 unresolved names (9.72%)
+!SESSION 2011-07-12 11:58:31.991 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.5.0_28
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-12 11:58:52.458
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.debug.core 4 125 2011-07-12 15:13:37.205
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: close error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.close(SpawnerInputStream.java:84)
+	at java.io.BufferedInputStream.close(BufferedInputStream.java:440)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:183)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:655)
+
+!ENTRY org.eclipse.debug.core 4 125 2011-07-12 15:14:07.843
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: close error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.close(SpawnerInputStream.java:84)
+	at java.io.BufferedInputStream.close(BufferedInputStream.java:440)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:183)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:655)
+
+!ENTRY org.eclipse.debug.core 4 125 2011-07-12 15:14:14.669
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: close error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.close(SpawnerInputStream.java:84)
+	at java.io.BufferedInputStream.close(BufferedInputStream.java:440)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:183)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:655)
+
+!ENTRY org.eclipse.debug.core 4 125 2011-07-12 15:18:40.780
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: close error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.close(SpawnerInputStream.java:84)
+	at java.io.BufferedInputStream.close(BufferedInputStream.java:440)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:183)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:655)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-07-12 15:20:17.436
+!MESSAGE Indexed 'QTransChopped' (1 sources, 171 headers) in 5.80 sec: 15,403 declarations; 25,708 references; 0 unresolved inclusions; 1 syntax errors; 56 unresolved names (0.14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-07-13 15:51:55.761
+!MESSAGE Indexed 'QTransPETSc' (2 sources, 167 headers) in 4.13 sec: 15,391 declarations; 25,738 references; 2 unresolved inclusions; 0 syntax errors; 155 unresolved names (0.38%)
+
+!ENTRY org.eclipse.cdt.make.core 4 0 2011-07-13 15:54:59.150
+!MESSAGE Cannot find builtin/gnu.mk
+!STACK 0
+java.io.IOException: Cannot find builtin/gnu.mk
+	at org.eclipse.core.internal.runtime.FindSupport.openStream(FindSupport.java:274)
+	at org.eclipse.core.runtime.FileLocator.openStream(FileLocator.java:188)
+	at org.eclipse.cdt.make.internal.core.makefile.gnu.GNUMakefile.getBuiltins(GNUMakefile.java:834)
+	at org.eclipse.cdt.make.internal.core.makefile.AbstractMakefile.getBuiltinMacroDefinitions(AbstractMakefile.java:139)
+	at org.eclipse.cdt.make.internal.core.makefile.AbstractMakefile.getBuiltinMacroDefinitions(AbstractMakefile.java:150)
+	at org.eclipse.cdt.make.internal.ui.text.makefile.MakefileTextHover.getHoverInfo(MakefileTextHover.java:64)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SESSION 2011-07-19 15:52:10.002 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_26
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -data /Users/markjack/Desktop/NSF TeraGrid Pathways Fellowship 2010/codes/c-codes/cntor-chopped-071111/QTransportPETSc -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2011-07-19 15:52:11.331
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-19 15:52:15.770
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2011-07-19 15:53:48.222 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_26
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -data /Users/markjack/Desktop/NSF TeraGrid Pathways Fellowship 2010/codes/c-codes/cntor-chopped-071111/QTransportPETSc -product org.eclipse.epp.package.cpp.product -keyring /Users/markjack/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-07-19 15:53:53.243
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

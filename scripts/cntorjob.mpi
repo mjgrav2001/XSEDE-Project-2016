@@ -1,0 +1,13 @@
+#!/bin/bash		  # Use Bash Shell
+#$ -A TG-PHY120028        # Project No.
+#$ -V                     # Inherit the submission environment 
+#$ -cwd                   # Start job in  submission directory
+#$ -N cntormpi            # Job Name
+#$ -j y                   # combine stderr & stdout into stdout  
+#$ -o $JOB_NAME.o$JOB_ID  # Name of the output file (eg. myMPI.oJobID)
+#$ -pe 2way 256           # Requests 16 cores/node, 64 cores total
+#$ -q normal              # Queue name
+#$ -l h_rt=02:00:00       # Run time (hh:mm:ss) - 2.0 hours
+#$ -M mark.a.jack@gmail.com # Address for email notification
+ibrun ./cntor	          # Run the MPI executable named "cntor"
+

@@ -1,0 +1,3 @@
+/panfs/storage.local/scs/home/mjack/scratch/xsedeproject/test/PETScCntor.dynamic
+
+module load gnu-openmpi

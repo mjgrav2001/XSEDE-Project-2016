@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH -p normal
+#SBATCH -A TG-PHY140011
+#SBATCH -N 1 -n 16
+#SBATCH --time=08:00:00
+
+#SBATCH --get-user-env
+
+#SBATCH -o cout.%j.%N
+
+#SBATCH --mail-type=all
+#SBATCH --mail-user=bprather@asu.edu
+
+cd $SLURM_SUBMIT_DIR
+
+export MKL_MIC_ENABLE=0
+export OMP_NUM_THREADS=1
+
+ibrun -n 4 -o 0 ./cntor-petsc

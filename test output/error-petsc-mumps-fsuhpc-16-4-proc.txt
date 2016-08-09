@@ -1,0 +1,72 @@
+[mjack@u03 PETScCntor.zigzag]$ more stderr.txt 
+[1]PETSC ERROR: [0]PETSC ERROR: --------------------- Error Message ------------------------------------
+[0]PETSC ERROR: No support for this operation for this object type!
+[0]PETSC ERROR: only local rows!
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[0]PETSC ERROR: See docs/changes/index.html for recent updates.
+[0]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[0]PETSC ERROR: See docs/index.html for manual pages.
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: ./cntor on a complex-c named n0118 by mjack Tue Dec 20 18:42:07 2011
+[0]PETSC ERROR: Libraries linked from /nethome/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[0]PETSC ERROR: Configure run at Fri Aug  5 12:23:19 2011
+[0]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-clanguage=c++ --with-scalar-type=complex --download-mumps --download-blacs --dow
+nload-[5]PETSC ERROR: --------------------- Error Message ------------------------------------
+[5]PETSC ERROR: No support for this operation for this object type!
+[5]PETSC ERROR: only local rows!
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[5]PETSC ERROR: See docs/changes/index.html for recent updates.
+[5]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[5]PETSC ERROR: See docs/index.html for manual pages.
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: ./cntor on a complex-c named n0170 by mjack Tue Dec 20 18:42:07 2011
+[5]PETSC ERROR: Libraries linked from /nethome/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[5]PETSC ERROR: Configure run at Fri Aug  5 12:23:19 2011
+[5]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-clanguage=c++ --with-scalar-type=complex --download-mumps --download-blacs --dow
+nload-scalapack --download-parmetis --download-f-blas-lapack
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: MatGetRow_MPIDense() line 69 in src/mat/impls/dense/mpi/mpidense.c
+[0]PETSC ERROR: MatGetRow() line 316 in src/mat/interface/matrix.c
+[0]PETSC ERROR: RetrieveInformation() line 230 in WDinvert.h
+[0]PETSC ERROR: RetrieveInformation() line 246 in WDcntor.cpp
+scalapack --download-parmetis --download-f-blas-lapack
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: MatGetRow_MPIDense() line 69 in src/mat/impls/dense/mpi/mpidense.c
+[5]PETSC ERROR: MatGetRow() line 316 in src/mat/interface/matrix.c
+[5]PETSC ERROR: RetrieveInformation() line 230 in WDinvert.h
+[5]PETSC ERROR: RetrieveInformation() line 246 in WDcntor.cpp
+[6]PETSC ERROR: [2]PETSC ERROR: --------------------- Error Message ------------------------------------
+[2]PETSC ERROR: No support for this operation for this object type!
+[2]PETSC ERROR: only local rows!
+Libraries linked from /nethome/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[3]PETSC ERROR: Configure run at Fri Aug  5 12:23:19 2011
+[1]PETSC ERROR: [3]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-clanguage=c++ --with-scalar-type=complex --download-mumps --download-blacs --dow
+nload-scalapack --download-parmetis --download-f-blas-lapack
+Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[1]PETSC ERROR: [3]PETSC ERROR: See docs/changes/index.html for recent updates.
+[1]PETSC ERROR: ------------------------------------------------------------------------
+See docs/faq.html for hints about trouble shooting.
+[3]PETSC ERROR: [1]PETSC ERROR: MatGetRow_MPIDense() line 69 in src/mat/impls/dense/mpi/mpidense.c
+See docs/index.html for manual pages.
+[3]PETSC ERROR: MatGetRow() line 316 in src/mat/interface/matrix.c
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[3]PETSC ERROR: RetrieveInformation() line 230 in WDinvert.h
+[1]PETSC ERROR: [3]PETSC ERROR: ./cntor on a complex-c named n0107 by mjack Tue Dec 20 18:42:07 2011
+RetrieveInformation() line 246 in WDcntor.cpp
+.
+.
+.
+[1]PETSC ERROR: Libraries linked from /nethome/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[1]PETSC ERROR: Configure run at Fri Aug  5 12:23:19 2011
+[1]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-clanguage=c++ --with-scalar-type=complex --download-mumps --download-blacs --dow
+nload-scalapack --download-parmetis --download-f-blas-lapack
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: MatGetRow_MPIDense() line 69 in src/mat/impls/dense/mpi/mpidense.c
+[1]PETSC ERROR: MatGetRow() line 316 in src/mat/interface/matrix.c
+[1]PETSC ERROR: RetrieveInformation() line 230 in WDinvert.h
+[1]PETSC ERROR: RetrieveInformation() line 246 in WDcntor.cpp
+
+

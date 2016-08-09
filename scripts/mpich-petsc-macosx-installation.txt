@@ -1,0 +1,79 @@
+
+IN MPICH DIRECTORY:
+
+sudo ./configure --prefix=/Users/markjack/mpich2-install/ --enable-fc --enable-cxx --enable-mpi-f90 CC=gcc CXX=g++ F77=gfortran FC=gfortran F90=gfortran 2>&1 |tee c.txt 
+
+sudo make 2>&1| tee m.txt 
+
+sudo make install 2>&1| tee mi.txt  
+
+
+
+IN PETSC DIRECTORY:
+
+export PETSC_DIR=$PWD
+
+./config/configure.py \
+
+PETSC_ARCH=complex-cpp-mumps \
+
+--with-fc=gfortran \
+
+--with-scalar-type=complex \
+
+--with-clanguage=c++ \
+
+--download-f-blas-lapack=1 \
+
+--download-mpich=1 \
+
+--download-mumps=1 \
+
+--download-blacs=1 \
+
+--download-scalapack=1 \
+
+--download-parmetis=1
+
+make PETSC_DIR=/Users/markjack/petsc-3.1-p8 \
+
+PETSC_ARCH=complex-cpp-mumps all
+
+make PETSC_DIR=/Users/markjack/petsc-3.1-p8 \
+
+PETSC_ARCH=complex-cpp-mumps test
+
+
+In BASHRC / IN BASH_PROFILE:
+
+F77=gfortran; export F77
+FC=gfortran; export FC
+F90=gfortran; export F90
+
+LIBS=/usr/local/lib/gcc4.2
+
+export CC=gcc-4.2
+export CXX=g++-4.2
+
+export LC_ALL=C
+
+export CFLAGS=-O3
+export LDFLAGS=-static
+
+export INCLUDEFFTW=/usr/local/include/fftw
+export LIBDIRS=/usr/local/lib
+
+export LOCDIR=${PWD}
+
+
+export PETSC_DIR=/Users/markjack/petsc-3.1-p8
+export PETSC_ARCH=complex-cpp-mumps
+##export PETSC_ARCH=complex-cpp-optimized
+
+PATH=/bin:/usr/bin:/usr/local/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/X11/bin:/sw/bin
+
+PATH="$PATH:/Users/markjack/mpich2-install/bin"
+
+export PATH
+
+

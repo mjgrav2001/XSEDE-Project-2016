@@ -1,0 +1,545 @@
+
+Start time: Wed Mar  7 17:01:57 2012
+Total Processors: 64
+Groups: 16
+Group Size: 4
+Energy range: -0.20000 eV to -0.19900 eV
+BField = 0.000000
+
+ Energy		DensityofStates	 ScaledTransmissionFunction	 Re(fermif)	Time
+
+-0.20000 	3.46840e-04	 (3.40961e-10, 1.57772e-30)	-2.81608e-10	33
+-0.19995 	3.46979e-04	 (3.41359e-10, 1.57772e-30)	-2.82404e-10	32
+-0.19990 	3.47118e-04	 (3.41758e-10, -7.88861e-31)	-2.83202e-10	30
+-0.19985 	3.47258e-04	 (3.42159e-10, 5.52203e-30)	-2.84004e-10	25
+-0.19980 	3.47398e-04	 (3.42560e-10, -3.15544e-30)	-2.84808e-10	26
+-0.19975 	3.47539e-04	 (3.42963e-10, 5.52203e-30)	-2.85615e-10	25
+-0.19970 	3.47681e-04	 (3.43367e-10, -2.36658e-30)	-2.86425e-10	26
+-0.19965 	3.47824e-04	 (3.43771e-10, 3.15544e-30)	-2.87238e-10	61
+-0.19960 	3.47967e-04	 (3.44177e-10, -3.94430e-30)	-2.88054e-10	23
+-0.19955 	3.48111e-04	 (3.44585e-10, -8.67747e-30)	-2.88872e-10	22
+-0.19950 	3.48256e-04	 (3.44993e-10, 4.73317e-30)	-2.89693e-10	25
+-0.19945 	3.48401e-04	 (3.45402e-10, 3.15544e-30)	-2.90517e-10	24
+-0.19940 	3.48547e-04	 (3.45813e-10, -3.15544e-30)	-2.91345e-10	24
+-0.19935 	3.48694e-04	 (3.46225e-10, -7.88861e-31)	-2.92175e-10	23
+-0.19930 	3.48841e-04	 (3.46637e-10, 1.57772e-30)	-2.93007e-10	29
+-0.19925 	3.48990e-04	 (3.47052e-10, -7.09975e-30)	-2.93843e-10	39
+=>> PBS: job killed: walltime 7218 exceeded limit 7200
+mpirun: killing job...
+
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 14547 on node hpc-9-30 exited on signal 0 (Unknown signal 0).
+--------------------------------------------------------------------------
+[5]PETSC ERROR: [55]PETSC ERROR: [57]PETSC ERROR: [48]PETSC ERROR: [14]PETSC ERROR: [24]PETSC ERROR: --------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 30 in communicator MPI_COMM_WORLD 
+with errorcode 59.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+------------------------------------------------------------------------
+[55]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[55]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[55]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[55]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[55]PETSC ERROR: likely location of problem given in stack below
+[55]PETSC ERROR: [51]PETSC ERROR: ------------------------------------------------------------------------
+[51]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[51]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[51]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[51]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[51]PETSC ERROR: likely location of problem given in stack below
+[51]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+------------------------------------------------------------------------
+[57]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[57]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[57]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[57]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[57]PETSC ERROR: likely location of problem given in stack below
+------------------------------------------------------------------------
+[48]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[48]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[48]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[48]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[48]PETSC ERROR: likely location of problem given in stack below
+------------------------------------------------------------------------
+[14]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[14]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[14]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[14]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[14]PETSC ERROR: likely location of problem given in stack below
+[38]PETSC ERROR: ------------------------------------------------------------------------
+[24]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[24]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[24]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[24]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[22]PETSC ERROR: ------------------------------------------------------------------------
+[22]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[22]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[22]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[22]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[22]PETSC ERROR: likely location of problem given in stack below
+[22]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[26]PETSC ERROR: ------------------------------------------------------------------------
+[26]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[26]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[26]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[26]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[26]PETSC ERROR: likely location of problem given in stack below
+[26]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[33]PETSC ERROR: [30]PETSC ERROR: ------------------------------------------------------------------------
+[30]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[30]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[30]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[30]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[30]PETSC ERROR: likely location of problem given in stack below
+[30]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[22]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[22]PETSC ERROR:       INSTEAD the line number of the start of the function
+[22]PETSC ERROR:       is given.
+[22]PETSC ERROR: [22] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[22]PETSC ERROR: [22] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[22]PETSC ERROR: --------------------- Error Message ------------------------------------
+[22]PETSC ERROR: Signal received!
+[22]PETSC ERROR: ------------------------------------------------------------------------
+[22]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[22]PETSC ERROR: See docs/changes/index.html for recent updates.
+[22]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[22]PETSC ERROR: See docs/index.html for manual pages.
+[22]PETSC ERROR: ------------------------------------------------------------------------
+[22]PETSC ERROR: ./cntor on a complex-c named hpc-8-18 by mjack Wed Mar  7 17:02:00 2012
+[22]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[22]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[22]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[22]PETSC ERROR: ------------------------------------------------------------------------
+[22]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[27]PETSC ERROR: ------------------------------------------------------------------------
+[27]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[27]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[27]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[27]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[27]PETSC ERROR: likely location of problem given in stack below
+[27]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+------------------------------------------------------------------------
+[33]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[33]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[33]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[30]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[30]PETSC ERROR:       INSTEAD the line number of the start of the function
+[30]PETSC ERROR:       is given.
+[30]PETSC ERROR: [30] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[30]PETSC ERROR: [30] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[30]PETSC ERROR: --------------------- Error Message ------------------------------------
+[30]PETSC ERROR: Signal received!
+[30]PETSC ERROR: ------------------------------------------------------------------------
+[30]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[30]PETSC ERROR: See docs/changes/index.html for recent updates.
+[30]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[30]PETSC ERROR: See docs/index.html for manual pages.
+[30]PETSC ERROR: ------------------------------------------------------------------------
+[30]PETSC ERROR: ./cntor on a complex-c named hpc-8-0 by mjack Wed Mar  7 17:02:00 2012
+[30]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[30]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[30]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[30]PETSC ERROR: ------------------------------------------------------------------------
+[30]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[51]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[51]PETSC ERROR:       INSTEAD the line number of the start of the function
+[51]PETSC ERROR:       is given.
+[51]PETSC ERROR: [51] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[51]PETSC ERROR: [51] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[51]PETSC ERROR: --------------------- Error Message ------------------------------------
+[51]PETSC ERROR: Signal received!
+[51]PETSC ERROR: ------------------------------------------------------------------------
+[51]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[51]PETSC ERROR: See docs/changes/index.html for recent updates.
+[51]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[51]PETSC ERROR: See docs/index.html for manual pages.
+[51]PETSC ERROR: ------------------------------------------------------------------------
+[51]PETSC ERROR: ./cntor on a complex-c named hpc-7-26 by mjack Wed Mar  7 17:02:00 2012
+[51]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[51]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[51]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[51]PETSC ERROR: ------------------------------------------------------------------------
+[51]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[57]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[48]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[14]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+------------------------------------------------------------------------
+[38]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[38]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[38]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[38]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[38]PETSC ERROR: likely location of problem given in stack below
+[38]PETSC ERROR: [24]PETSC ERROR: likely location of problem given in stack below
+[24]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[28]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[33]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[33]PETSC ERROR: likely location of problem given in stack below
+[33]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[52]PETSC ERROR: ------------------------------------------------------------------------
+[52]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[52]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[52]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[52]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[52]PETSC ERROR: likely location of problem given in stack below
+[52]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[57]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[57]PETSC ERROR:       INSTEAD the line number of the start of the function
+[57]PETSC ERROR:       is given.
+[48]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[48]PETSC ERROR:       INSTEAD the line number of the start of the function
+[48]PETSC ERROR:       is given.
+[14]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[14]PETSC ERROR:       INSTEAD the line number of the start of the function
+[14]PETSC ERROR:       is given.
+[14]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[24]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[24]PETSC ERROR:       INSTEAD the line number of the start of the function
+[24]PETSC ERROR:       is given.
+[24]PETSC ERROR: [24] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[24]PETSC ERROR: [24] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+------------------------------------------------------------------------
+[28]PETSC ERROR: [33]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[33]PETSC ERROR:       INSTEAD the line number of the start of the function
+[33]PETSC ERROR:       is given.
+[33]PETSC ERROR: [55]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[55]PETSC ERROR:       INSTEAD the line number of the start of the function
+[55]PETSC ERROR:       is given.
+[55]PETSC ERROR: [57]PETSC ERROR: [57] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[57]PETSC ERROR: [57] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[48]PETSC ERROR: [48] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[48]PETSC ERROR: [48] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[14] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[14]PETSC ERROR: [14] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[14]PETSC ERROR: --------------------- Error Message ------------------------------------
+[38]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[38]PETSC ERROR:       INSTEAD the line number of the start of the function
+[38]PETSC ERROR:       is given.
+[38]PETSC ERROR: [24]PETSC ERROR: --------------------- Error Message ------------------------------------
+[24]PETSC ERROR: Signal received!
+[24]PETSC ERROR: ------------------------------------------------------------------------
+[24]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[24]PETSC ERROR: See docs/changes/index.html for recent updates.
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[28]PETSC ERROR: [33] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[33]PETSC ERROR: [33] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[33]PETSC ERROR: --------------------- Error Message ------------------------------------
+[52]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[52]PETSC ERROR:       INSTEAD the line number of the start of the function
+[52]PETSC ERROR:       is given.
+[52]PETSC ERROR: [52] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[57]PETSC ERROR: --------------------- Error Message ------------------------------------
+[48]PETSC ERROR: --------------------- Error Message ------------------------------------
+[14]PETSC ERROR: Signal received!
+[14]PETSC ERROR: ------------------------------------------------------------------------
+[14]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[38] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[38]PETSC ERROR: [38] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[38]PETSC ERROR: --------------------- Error Message ------------------------------------
+[24]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[24]PETSC ERROR: See docs/index.html for manual pages.
+[24]PETSC ERROR: ------------------------------------------------------------------------
+[24]PETSC ERROR: ./cntor on a complex-c named hpc-8-16 by mjack Wed Mar  7 17:02:00 2012
+[24]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[28]PETSC ERROR: [33]PETSC ERROR: Signal received!
+[33]PETSC ERROR: ------------------------------------------------------------------------
+[33]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[55] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[55]PETSC ERROR: [55] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[55]PETSC ERROR: --------------------- Error Message ------------------------------------
+[57]PETSC ERROR: Signal received!
+[57]PETSC ERROR: ------------------------------------------------------------------------
+[57]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[48]PETSC ERROR: Signal received!
+[48]PETSC ERROR: ------------------------------------------------------------------------
+[48]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[48]PETSC ERROR: [14]PETSC ERROR: See docs/changes/index.html for recent updates.
+[14]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[14]PETSC ERROR: See docs/index.html for manual pages.
+[14]PETSC ERROR: ------------------------------------------------------------------------
+[14]PETSC ERROR: ./cntor on a complex-c named hpc-8-30 by mjack Wed Mar  7 17:02:00 2012
+[38]PETSC ERROR: Signal received!
+[38]PETSC ERROR: ------------------------------------------------------------------------
+[38]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[38]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[24]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[24]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[24]PETSC ERROR: ------------------------------------------------------------------------
+[24]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[28]PETSC ERROR: [33]PETSC ERROR: See docs/changes/index.html for recent updates.
+[33]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[33]PETSC ERROR: See docs/index.html for manual pages.
+[33]PETSC ERROR: ------------------------------------------------------------------------
+[33]PETSC ERROR: [52]PETSC ERROR: [52] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[57]PETSC ERROR: See docs/changes/index.html for recent updates.
+[57]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[57]PETSC ERROR: See docs/index.html for manual pages.
+[57]PETSC ERROR: ------------------------------------------------------------------------
+[57]PETSC ERROR: ./cntor on a complex-c named hpc-7-2 by mjack Wed Mar  7 17:02:00 2012
+See docs/changes/index.html for recent updates.
+[48]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[48]PETSC ERROR: See docs/index.html for manual pages.
+[48]PETSC ERROR: ------------------------------------------------------------------------
+[48]PETSC ERROR: ./cntor on a complex-c named hpc-7-28 by mjack Wed Mar  7 17:02:00 2012
+[14]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[14]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[14]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[14]PETSC ERROR: ------------------------------------------------------------------------
+[14]PETSC ERROR: See docs/changes/index.html for recent updates.
+[38]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[38]PETSC ERROR: See docs/index.html for manual pages.
+[38]PETSC ERROR: ------------------------------------------------------------------------
+[38]PETSC ERROR: ./cntor on a complex-c named hpc-7-4 by mjack Wed Mar  7 17:02:00 2012
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+./cntor on a complex-c named hpc-7-7 by mjack Wed Mar  7 17:02:00 2012
+[33]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[33]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[33]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[33]PETSC ERROR: ------------------------------------------------------------------------
+[33]PETSC ERROR: [55]PETSC ERROR: Signal received!
+[55]PETSC ERROR: ------------------------------------------------------------------------
+[55]PETSC ERROR: [57]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[57]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[57]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[57]PETSC ERROR: ------------------------------------------------------------------------
+[57]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[48]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[48]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[48]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[48]PETSC ERROR: ------------------------------------------------------------------------
+[48]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[38]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[38]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[38]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[38]PETSC ERROR: ------------------------------------------------------------------------
+[38]PETSC ERROR: [28]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[52]PETSC ERROR: --------------------- Error Message ------------------------------------
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+likely location of problem given in stack below
+[28]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[32]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[55]PETSC ERROR: See docs/changes/index.html for recent updates.
+[55]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[55]PETSC ERROR: See docs/index.html for manual pages.
+[55]PETSC ERROR: ------------------------------------------------------------------------
+[55]PETSC ERROR: [26]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[26]PETSC ERROR:       INSTEAD the line number of the start of the function
+[26]PETSC ERROR:       is given.
+[26]PETSC ERROR: [26] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[26]PETSC ERROR: [26] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[26]PETSC ERROR: --------------------- Error Message ------------------------------------
+[26]PETSC ERROR: Signal received!
+[26]PETSC ERROR: ------------------------------------------------------------------------
+[26]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[26]PETSC ERROR: See docs/changes/index.html for recent updates.
+[26]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[26]PETSC ERROR: See docs/index.html for manual pages.
+[26]PETSC ERROR: ------------------------------------------------------------------------
+[26]PETSC ERROR: ./cntor on a complex-c named hpc-8-11 by mjack Wed Mar  7 17:02:00 2012
+[26]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[26]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[26]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[26]PETSC ERROR: ------------------------------------------------------------------------
+[26]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+------------------------------------------------------------------------
+[32]PETSC ERROR: [52]PETSC ERROR: [36]PETSC ERROR: ------------------------------------------------------------------------
+[36]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[36]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[36]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[36]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[36]PETSC ERROR: likely location of problem given in stack below
+[36]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[36]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[36]PETSC ERROR:       INSTEAD the line number of the start of the function
+[36]PETSC ERROR:       is given.
+[36]PETSC ERROR: [36] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[36]PETSC ERROR: [36] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[36]PETSC ERROR: --------------------- Error Message ------------------------------------
+[36]PETSC ERROR: Signal received!
+[36]PETSC ERROR: ------------------------------------------------------------------------
+[36]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[36]PETSC ERROR: See docs/changes/index.html for recent updates.
+[36]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[36]PETSC ERROR: See docs/index.html for manual pages.
+[36]PETSC ERROR: ------------------------------------------------------------------------
+[36]PETSC ERROR: ./cntor on a complex-c named hpc-7-4 by mjack Wed Mar  7 17:02:00 2012
+[36]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[36]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[36]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[36]PETSC ERROR: ------------------------------------------------------------------------
+[36]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[27]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[27]PETSC ERROR:       INSTEAD the line number of the start of the function
+[27]PETSC ERROR:       is given.
+[27]PETSC ERROR: [27] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[27]PETSC ERROR: [27] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[27]PETSC ERROR: --------------------- Error Message ------------------------------------
+[27]PETSC ERROR: Signal received!
+[27]PETSC ERROR: ------------------------------------------------------------------------
+[27]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[27]PETSC ERROR: See docs/changes/index.html for recent updates.
+[27]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[27]PETSC ERROR: See docs/index.html for manual pages.
+[27]PETSC ERROR: ------------------------------------------------------------------------
+[27]PETSC ERROR: ./cntor on a complex-c named hpc-8-11 by mjack Wed Mar  7 17:02:00 2012
+[27]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[27]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[27]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[27]PETSC ERROR: ------------------------------------------------------------------------
+[27]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[32]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[32]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[32]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[32]PETSC ERROR: likely location of problem given in stack below
+./cntor on a complex-c named hpc-7-25 by mjack Wed Mar  7 17:02:00 2012
+[55]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[55]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[55]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[23]PETSC ERROR: ------------------------------------------------------------------------
+[23]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[23]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[23]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[23]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[23]PETSC ERROR: likely location of problem given in stack below
+[23]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[23]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[23]PETSC ERROR:       INSTEAD the line number of the start of the function
+[23]PETSC ERROR:       is given.
+[23]PETSC ERROR: [23] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[23]PETSC ERROR: [23] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[23]PETSC ERROR: --------------------- Error Message ------------------------------------
+[23]PETSC ERROR: Signal received!
+[23]PETSC ERROR: ------------------------------------------------------------------------
+[23]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[23]PETSC ERROR: See docs/changes/index.html for recent updates.
+[23]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[23]PETSC ERROR: See docs/index.html for manual pages.
+[23]PETSC ERROR: ------------------------------------------------------------------------
+[23]PETSC ERROR: ./cntor on a complex-c named hpc-8-16 by mjack Wed Mar  7 17:02:00 2012
+[23]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[23]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[23]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[23]PETSC ERROR: ------------------------------------------------------------------------
+[23]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[28]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[28]PETSC ERROR:       INSTEAD the line number of the start of the function
+[28]PETSC ERROR:       is given.
+[28]PETSC ERROR: [28] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[28]PETSC ERROR: [28] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[28]PETSC ERROR: --------------------- Error Message ------------------------------------
+[28]PETSC ERROR: Signal received!
+[28]PETSC ERROR: ------------------------------------------------------------------------
+[28]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[28]PETSC ERROR: See docs/changes/index.html for recent updates.
+[28]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[28]PETSC ERROR: See docs/index.html for manual pages.
+[28]PETSC ERROR: ------------------------------------------------------------------------
+[28]PETSC ERROR: ./cntor on a complex-c named hpc-8-11 by mjack Wed Mar  7 17:02:00 2012
+[28]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[28]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[28]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[28]PETSC ERROR: ------------------------------------------------------------------------
+[28]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[32]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+Signal received!
+[52]PETSC ERROR: ------------------------------------------------------------------------
+[52]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[52]PETSC ERROR: See docs/changes/index.html for recent updates.
+[37]PETSC ERROR: [32]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[32]PETSC ERROR:       INSTEAD the line number of the start of the function
+[32]PETSC ERROR: [55]PETSC ERROR: ------------------------------------------------------------------------
+[55]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+------------------------------------------------------------------------
+[37]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+      is given.
+[32]PETSC ERROR: [32] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[32]PETSC ERROR: [32] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[52]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[52]PETSC ERROR: See docs/index.html for manual pages.
+[52]PETSC ERROR: ------------------------------------------------------------------------
+[52]PETSC ERROR: [37]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[37]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[37]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[37]PETSC ERROR: likely location of problem given in stack below
+[32]PETSC ERROR: --------------------- Error Message ------------------------------------
+./cntor on a complex-c named hpc-7-25 by mjack Wed Mar  7 17:02:00 2012
+[52]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[52]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[52]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[52]PETSC ERROR: [37]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[32]PETSC ERROR: Signal received!
+[32]PETSC ERROR: ------------------------------------------------------------------------
+------------------------------------------------------------------------
+[52]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[37]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[37]PETSC ERROR:       INSTEAD the line number of the start of the function
+[37]PETSC ERROR: [32]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[32]PETSC ERROR: See docs/changes/index.html for recent updates.
+[32]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[32]PETSC ERROR: See docs/index.html for manual pages.
+[32]PETSC ERROR:       is given.
+[37]PETSC ERROR: [37] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[37]PETSC ERROR: [37] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+------------------------------------------------------------------------
+[32]PETSC ERROR: ./cntor on a complex-c named hpc-7-7 by mjack Wed Mar  7 17:02:00 2012
+[32]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[32]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[32]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[37]PETSC ERROR: --------------------- Error Message ------------------------------------
+[32]PETSC ERROR: ------------------------------------------------------------------------
+[32]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[54]PETSC ERROR: ------------------------------------------------------------------------
+[54]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[54]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[54]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[54]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[54]PETSC ERROR: likely location of problem given in stack below
+[54]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[37]PETSC ERROR: Signal received!
+[37]PETSC ERROR: ------------------------------------------------------------------------
+[37]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[37]PETSC ERROR: See docs/changes/index.html for recent updates.
+[37]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[37]PETSC ERROR: See docs/index.html for manual pages.
+[37]PETSC ERROR: ------------------------------------------------------------------------
+[37]PETSC ERROR: ./cntor on a complex-c named hpc-7-4 by mjack Wed Mar  7 17:02:00 2012
+[54]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[54]PETSC ERROR:       INSTEAD the line number of the start of the function
+[54]PETSC ERROR:       is given.
+[54]PETSC ERROR: [54] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[54]PETSC ERROR: [54] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[54]PETSC ERROR: --------------------- Error Message ------------------------------------
+[54]PETSC ERROR: Signal received!
+[54]PETSC ERROR: ------------------------------------------------------------------------
+[54]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[54]PETSC ERROR: See docs/changes/index.html for recent updates.
+[54]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[54]PETSC ERROR: See docs/index.html for manual pages.
+[54]PETSC ERROR: ------------------------------------------------------------------------
+[54]PETSC ERROR: ./cntor on a complex-c named hpc-7-25 by mjack Wed Mar  7 17:02:00 2012
+[54]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[54]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[54]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[54]PETSC ERROR: ------------------------------------------------------------------------
+[54]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[37]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[37]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[37]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[37]PETSC ERROR: ------------------------------------------------------------------------
+[37]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[25]PETSC ERROR: ------------------------------------------------------------------------
+[25]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[25]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[25]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/petsc-as/documentation/troubleshooting.html#Signal[25]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[25]PETSC ERROR: likely location of problem given in stack below
+[25]PETSC ERROR: ---------------------  Stack Frames ------------------------------------
+[25]PETSC ERROR: Note: The EXACT line numbers in the stack are not available,
+[25]PETSC ERROR:       INSTEAD the line number of the start of the function
+[25]PETSC ERROR:       is given.
+[25]PETSC ERROR: [25] PetscCommDuplicate line 142 src/sys/objects/tagm.c
+[25]PETSC ERROR: [25] PetscSynchronizedFlush line 396 src/sys/fileio/mprint.c
+[25]PETSC ERROR: --------------------- Error Message ------------------------------------
+[25]PETSC ERROR: Signal received!
+[25]PETSC ERROR: ------------------------------------------------------------------------
+[25]PETSC ERROR: Petsc Release Version 3.1.0, Patch 8, Thu Mar 17 13:37:48 CDT 2011
+[25]PETSC ERROR: See docs/changes/index.html for recent updates.
+[25]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[25]PETSC ERROR: See docs/index.html for manual pages.
+[25]PETSC ERROR: ------------------------------------------------------------------------
+[25]PETSC ERROR: ./cntor on a complex-c named hpc-8-16 by mjack Wed Mar  7 17:02:00 2012
+[25]PETSC ERROR: Libraries linked from /panfs/storage.local/scs/home/mjack/petsc-3.1-p8/complex-cpp-mumps/lib
+[25]PETSC ERROR: Configure run at Sat Jul 16 00:11:56 2011
+[25]PETSC ERROR: Configure options PETSC_ARCH=complex-cpp-mumps --with-cc=mpicc --with-fc=mpif90 --with-blas-lapack-dir=/usr/lib64 --with-shared --with-clanguage=c++ --with-scalar-type=complex --download-mumps=1 --download-blacs=1 --download-scalapack=1 --download-parmetis=1 --with-cxx=mpicxx
+[25]PETSC ERROR: ------------------------------------------------------------------------
+[25]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+mpirun: clean termination accomplished
+
+[hpc-9-30:14546] 19 more processes have sent help message help-mpi-api.txt / mpi-abort
+[hpc-9-30:14546] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+64 total processes killed (some possibly by mpirun during cleanup)

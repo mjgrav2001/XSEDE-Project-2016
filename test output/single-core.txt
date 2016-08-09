@@ -1,0 +1,67 @@
+ Bfield 0
+ rows 4000 idim 40 ndiag 100 numEnergySteps 8000
+
+Start time: Fri Feb 10 19:39:12 2012
+Processors in use: 1
+Groups of processors actually doing PETSc matrix inversions: 1
+Energy range: -0.20000 eV to 0.20000 eV
+BField = 0.000000
+
+ Energy          DensityofStates         ScaledTransmissionFunction      Re(fermif)      Time
+
+-0.20000        1.53329e-03        (7.33152e-10, -9.07190e-30)  -6.05529e-10    29
+-0.19995        1.52806e-03        (7.28354e-10, -1.41995e-29)  -6.02562e-10    28
+-0.19990        1.52287e-03        (7.23593e-10, -2.36658e-29)  -5.99615e-10    27
+
+
+
+
+ Bfield 0
+ rows 4000 idim 40 ndiag 100 numEnergySteps 8000
+
+Start time: Thu Feb  9 22:29:50 2012
+Processors in use: 2
+Groups of processors actually doing PETSc matrix inversions: 1
+Number of processors for each PETSc matrix inversion: 2
+Energy range: -0.20000 eV to 0.20000 eV
+BField = 0.000000
+
+ Energy          DensityofStates         ScaledTransmissionFunction      Re(fermif)      Time
+
+
+Total run time: 1 minutes 41 seconds
+-0.20000        1.53329e-03        (7.77774e-10, -1.18329e-30)  -6.42383e-10    101
+
+Total run time: 1 minutes 44 seconds
+-0.19995        1.52806e-03        (7.72769e-10, -2.16937e-30)  -6.39306e-10    104
+
+Total run time: 1 minutes 48 seconds
+-0.19990        1.52287e-03        (7.67802e-10, 7.69139e-30)   -6.36249e-10    108
+
+Total run time: 1 minutes 58 seconds
+-0.19985        1.51771e-03        (7.62874e-10, -3.15544e-30)  -6.33213e-10    118
+
+Total run time: 1 minutes 49 seconds
+-0.19980        1.51259e-03        (7.57983e-10, -1.57772e-29)  -6.30196e-10    110
+
+Total run time: 1 minutes 55 seconds
+-0.19975        1.50750e-03        (7.53131e-10, 9.26912e-30)   -6.27198e-10    115
+
+Total run time: 1 minutes 52 seconds
+-0.19970        1.50244e-03        (7.48315e-10, -1.10441e-29)  -6.24220e-10    112
+
+Total run time: 1 minutes 56 seconds
+-0.19965        1.49742e-03        (7.43536e-10, 2.28770e-29)   -6.21261e-10    116
+
+Total run time: 1 minutes 58 seconds
+-0.19960        1.49243e-03        (7.38794e-10, 1.47911e-29)   -6.18322e-10    118
+
+Total run time: 2 minutes 2 seconds
+-0.19955        1.48748e-03        (7.34089e-10, -5.91646e-30)  -6.15401e-10    122
+
+Total run time: 2 minutes 4 seconds
+-0.19950        1.48256e-03        (7.29419e-10, 1.97215e-31)   -6.12499e-10    124
+
+Total run time: 2 minutes 5 seconds
+-0.19945        1.47767e-03        (7.24784e-10, 2.23839e-29)   -6.09615e-10    125
+

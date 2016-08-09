@@ -1,0 +1,13 @@
+
+Start time: Sun Jul 27 16:24:47 2014
+
+Total Processors: 512
+Groups: 512
+Processes per group: 1
+Threads per process: 1
+Energy range: -0.20000 eV to 0.20000 eV
+BField = 0.000000
+
+ Energy		DensityofStates	 ScaledTransmissionFunction	 Re(fermif)	Time
+
+PC type is: lu

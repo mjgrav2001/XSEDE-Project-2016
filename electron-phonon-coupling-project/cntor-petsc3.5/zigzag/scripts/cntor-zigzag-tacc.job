@@ -1,0 +1,17 @@
+#!/bin/bash		  
+#SBATCH -A TG-PHY140011         # Project namex
+#SBATCH -p normal	        # Queue name
+#SBATCH -J cntor_zigzag         # Job Name
+#SBATCH -N 16                   # Requests 16 nodes total
+#SBATCH -n 32		        # Requests 32/16=2 tasks per node
+#SBATCH -t 1:00:00		# Run time (hh:mm:ss) - 1.0 hours
+#SBATCH -o zigzag.o%j		# Name of the output file (eg. myMPI.oJobID)
+#SBATCH -e zigzag.e%j           # Name of the error file (eg. myMPI.eJobID)
+#SBATCH --mail-user=mark.a.jack@gmail.com	# Address for email notification
+OMP_NUM_THREADS=1
+export OMP_NUM_THREADS
+#cd $WORK/ORNL_VFP_Project/PETScCntor.zigzag.061214/
+ibrun ./cntor -pc_type lu -pc_factor_mat_solver_package mumps -mat_mumps_icntl_14 1000 >> $HOME/cntor_zigzag_N16_p2_n32.log # Run the MPI executable named "cntor"
+#ibrun ./cntor >> $HOME/cntor_zigzag_N16_p2_n32.log
+#ibrun ./cntor-mt >> $HOME/cntor_mt_zigzag_N16_p2_n32.log
+#ibrun ./cntor-mic >> $HOME/cntor_mic_zigzag_N16.log                                    

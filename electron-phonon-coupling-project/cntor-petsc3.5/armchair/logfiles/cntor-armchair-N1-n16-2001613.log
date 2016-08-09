@@ -1,0 +1,55 @@
+[nid19003:25552] opal_os_dirpath_create: Error: Unable to create the sub-directory (/tmp/work) of (/tmp/work/n8d/openmpi-sessions-11578@nid19003_0/17173/1/0), mkdir failed [1]
+[nid19003:25552] [[17173,1],0] ORTE_ERROR_LOG: Error in file util/session_dir.c at line 107
+[nid19003:25552] [[17173,1],0] ORTE_ERROR_LOG: Error in file util/session_dir.c at line 403
+[nid19003:25552] [[17173,1],0] ORTE_ERROR_LOG: Error in file base/ess_base_std_app.c at line 197
+--------------------------------------------------------------------------
+It looks like orte_init failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during orte_init; some of which are due to configuration or
+environment problems.  This failure appears to be an internal failure;
+here's some additional information (which may only be relevant to an
+Open MPI developer):
+
+  orte_session_dir failed
+  --> Returned value Error (-1) instead of ORTE_SUCCESS
+--------------------------------------------------------------------------
+[nid19003:25552] [[17173,1],0] ORTE_ERROR_LOG: Error in file ess_pmi_module.c at line 243
+--------------------------------------------------------------------------
+It looks like orte_init failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during orte_init; some of which are due to configuration or
+environment problems.  This failure appears to be an internal failure;
+here's some additional information (which may only be relevant to an
+Open MPI developer):
+
+  orte_ess_init failed
+  --> Returned value Error (-1) instead of ORTE_SUCCESS
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  ompi_mpi_init: orte_init failed
+  --> Returned "Error" (-1) instead of "Success" (0)
+--------------------------------------------------------------------------
+[nid19003:25552] *** An error occurred in MPI_Init_thread
+[nid19003:25552] *** reported by process [1125449729,0]
+[nid19003:25552] *** on a NULL communicator
+[nid19003:25552] *** Unknown error
+[nid19003:25552] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[nid19003:25552] ***    and potentially your MPI job)
+--------------------------------------------------------------------------
+An MPI process is aborting at a time when it cannot guarantee that all
+of its peer processes in the job will be killed properly.  You should
+double check that everything has shut down cleanly.
+
+  Reason:     Before MPI_INIT completed
+  Local host: nid19003
+  PID:        25552
+--------------------------------------------------------------------------
+Application 5587733 exit codes: 1
+Application 5587733 resources: utime ~1s, stime ~0s, Rss ~6680, inblocks ~23102, outblocks ~74434

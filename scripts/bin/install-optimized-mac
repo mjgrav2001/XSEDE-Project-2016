@@ -1,0 +1,18 @@
+#!/bin/bash
+
+PETSC_ARCH=complex-cpp-optimized
+
+export PETSC_DIR=$PWD
+export PETSC_ARCH
+
+./config/configure.py \
+PETSC_ARCH=$PETSC_ARCH \
+--with-clanguage=cxx \
+--with-scalar-type=complex \
+--with-debugging=0 \
+--with-fortran-kernels=1 \
+--with-mpi-dir=/Users/adambyrd/soft/mpich2-install \
+--with-blas-lapack-lib="-framework veclib"
+
+make all
+make test
